@@ -59,6 +59,70 @@ Template Name: 採用情報
                         <article class="acd_container"><!-- acd_open 入れると開いたまま-->
                             <a href="#" class="acd_trigger"><span><?php the_title(); ?></span></a>
                             <div class="acd_tree sp_sps">
+
+                            <!-- ここにif文 -->
+                            <?php if( $post->ID == 17750 ):?>
+                                <div class="link-to-voices_wrap">
+                                    <a href="<?php bloginfo('url'); ?>/recruit_voices/kamezawa/" class="link-to-voice">
+                                        <img src="<?php bloginfo('template_directory'); ?>/recruit-voices/images/kamezawa-thumb.jpg" alt="">
+                                        <div class="link-to-voice_txt">
+                                            <span class="link-to-voice_ttl">Message</span>
+                                            <span class="link-to-voice_script">お客様からの「ありがとう！」が<br>嬉しい瞬間</span>
+                                        </div>
+                                        <svg class="link-to-voice-triangle" viewBox="0 0 11 19">
+                                            <polygon points="0 19 0 0 11 9.5 0 19"/>
+                                        </svg>
+                                    </a>
+                                    <a href="<?php bloginfo('url'); ?>/recruit_voices/konohara/" class="link-to-voice">
+                                        <img src="<?php bloginfo('template_directory'); ?>/recruit-voices/images/konohara-thumb.jpg" alt="">
+                                        <div class="link-to-voice_txt">
+                                            <span class="link-to-voice_ttl">Message</span>
+                                            <span class="link-to-voice_script">お客様からの一声が<br>日々の中の“原動力”</span>
+                                        </div>
+                                        <svg class="link-to-voice-triangle" viewBox="0 0 11 19">
+                                            <polygon points="0 19 0 0 11 9.5 0 19"/>
+                                        </svg>
+                                    </a>
+                                    <a href="<?php bloginfo('url'); ?>/recruit_voices/mitani" class="link-to-voice">
+                                        <img src="<?php bloginfo('template_directory'); ?>/recruit-voices/images/mitani-thumb.jpg" alt="">
+                                        <div class="link-to-voice_txt">
+                                            <span class="link-to-voice_ttl">Message</span>
+                                            <span class="link-to-voice_script">お客様と感動を<br>「共有」</span>
+                                        </div>
+                                        <svg class="link-to-voice-triangle" viewBox="0 0 11 19">
+                                            <polygon points="0 19 0 0 11 9.5 0 19"/>
+                                        </svg>
+                                    </a>
+                                </div>
+                            <?php elseif( $post->ID == 17734 ):?>
+                                <div class="link-to-voices_wrap">
+                                    <a href="<?php bloginfo('url'); ?>/recruit_voices/marume/" class="link-to-voice">
+                                        <img src="<?php bloginfo('template_directory'); ?>/recruit-voices/images/marume-thumb.jpg" alt="">
+                                        <div class="link-to-voice_txt">
+                                            <span class="link-to-voice_ttl">Message</span>
+                                            <span class="link-to-voice_script">お客様の表情を見れる事に<br>”やりがい”を感じる</span>
+                                        </div>
+                                        <svg class="link-to-voice-triangle" viewBox="0 0 11 19">
+                                            <polygon points="0 19 0 0 11 9.5 0 19"/>
+                                        </svg>
+                                    </a>
+                                </div>
+                            <?php elseif( $post->ID == 17744 ):?>
+                                <div class="link-to-voices_wrap">
+                                    <a href="<?php bloginfo('url'); ?>/recruit_voices/nakamura" class="link-to-voice">
+                                        <img src="<?php bloginfo('template_directory'); ?>/recruit-voices/images/nakamura-thumb.jpg" alt="">
+                                        <div class="link-to-voice_txt">
+                                            <span class="link-to-voice_ttl">Message</span>
+                                            <span class="link-to-voice_script">お客様からの<br>「美味しかった！」を求めて</span>
+                                        </div>
+                                        <svg class="link-to-voice-triangle" viewBox="0 0 11 19">
+                                            <polygon points="0 19 0 0 11 9.5 0 19"/>
+                                        </svg>
+                                    </a>
+                                </div>
+                            <?php endif;?> 
+                            <!-- ここにif文 -->
+
 								<?php if(get_field('業務内容')): ?>
                                 <dl class="dl_tnses_m">
                                     <dt>業務内容</dt>

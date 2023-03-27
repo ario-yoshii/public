@@ -1,0 +1,262 @@
+@charset "UTF-8";
+/* 先輩の声 */
+.recruit-voices {
+  width: 100%;
+}
+
+.recruit-voices_wrap {
+  width: min(94%, 1066px);
+  margin-inline: auto;
+  -webkit-padding-after: 120px;
+          padding-block-end: 120px;
+}
+@media screen and (max-width: 1023px) {
+  .recruit-voices_wrap {
+    -webkit-padding-after: 200px;
+            padding-block-end: 200px;
+  }
+}
+.recruit-voices_wrap img {
+  display: block;
+  width: 100%;
+}
+
+.recruit-voice_heading {
+  font-size: 3.2rem;
+  text-align: center;
+  margin-block: 1em;
+}
+@media screen and (max-width: 768px) {
+  .recruit-voice_heading {
+    font-size: 5vw;
+  }
+}
+
+.recruit-voices_main-view {
+  position: relative;
+  z-index: 1;
+  aspect-ratio: 533/235;
+}
+@media screen and (max-width: 768px) {
+  .recruit-voices_main-view {
+    width: 150%;
+    -webkit-margin-start: -25%;
+            margin-inline-start: -25%;
+    aspect-ratio: 5/3;
+  }
+  .recruit-voices_main-view img {
+    -webkit-margin-start: -10vw;
+            margin-inline-start: -10vw;
+  }
+}
+
+.recruit-voices_main-view_txt {
+  position: absolute;
+  z-index: 2;
+  bottom: 0;
+  right: 7.5%;
+  background-color: #19368d;
+  font-size: 1.5rem;
+  padding-block: 1.6em 1.2em;
+  padding-inline: 1.6em;
+  width: 285px;
+}
+@media screen and (max-width: 1023px) {
+  .recruit-voices_main-view_txt {
+    right: -2.4vw;
+  }
+}
+@media screen and (max-width: 768px) {
+  .recruit-voices_main-view_txt {
+    right: 23vw;
+    font-size: 3.4vw;
+    width: 60vw;
+    padding-block: 1.2em 1em;
+  }
+}
+.recruit-voices_main-view_txt span {
+  display: block;
+}
+.recruit-voices_main-view_txt .-before-name {
+  margin-block: 1.2em 0.5em;
+  color: #fff;
+}
+.recruit-voices_main-view_txt .-name-ja {
+  font-weight: bold;
+  font-size: 1.87em;
+  color: #fff;
+}
+.recruit-voices_main-view_txt .-name-en {
+  -webkit-margin-before: 1.2em;
+          margin-block-start: 1.2em;
+  color: #fff;
+}
+@media screen and (max-width: 768px) {
+  .recruit-voices_main-view_txt .-name-en {
+    -webkit-margin-before: 1em;
+            margin-block-start: 1em;
+  }
+}
+
+.recruit-voices_heading-s {
+  font-size: 2rem;
+  color: #fff;
+  line-height: 1;
+}
+.recruit-voices_heading-s.-with-line {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 0.6em;
+  align-items: center;
+}
+.recruit-voices_heading-s.-with-line .-line {
+  width: 100%;
+  height: 1px;
+  background-color: #fff;
+}
+@media screen and (max-width: 768px) {
+  .recruit-voices_heading-s {
+    font-size: 4.2vw;
+  }
+}
+
+.recruit-voices_lead {
+  font-size: 2.8rem;
+  font-weight: bold;
+  line-height: 1.56;
+  margin-block: 0.9em;
+}
+@media screen and (max-width: 768px) {
+  .recruit-voices_lead {
+    font-size: 5vw;
+    margin-block: 2.4em 1em;
+  }
+}
+
+.recruit-voices_sub-view {
+  width: min(100%, 906px);
+  margin-inline: auto;
+  position: relative;
+  z-index: 1;
+  font-size: 1.5rem;
+  padding-block: 1.5em;
+}
+@media screen and (max-width: 768px) {
+  .recruit-voices_sub-view {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+
+.recruit-voices_sub-view_txt_wrap {
+  background: rgba(255, 255, 255, 0.9);
+  padding-block: 1.6em;
+  -webkit-padding-end: 2em;
+          padding-inline-end: 2em;
+  width: 49%;
+  position: relative;
+  z-index: 2;
+  text-align: justify;
+}
+@media screen and (max-width: 768px) {
+  .recruit-voices_sub-view_txt_wrap {
+    width: 100%;
+    padding-inline: 1em;
+  }
+}
+
+.recruit-voices_sub-view_txt:not(:first-of-type) {
+  -webkit-margin-before: 1em;
+          margin-block-start: 1em;
+}
+
+img.recruit-voices_sub-img {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  width: 55%;
+}
+@media screen and (max-width: 768px) {
+  img.recruit-voices_sub-img {
+    position: inherit;
+    width: 70%;
+    margin-inline: auto;
+  }
+}
+
+.recruit-voices_bottom_wrap {
+  width: min(100%, 906px);
+  -webkit-margin-before: 40px;
+          margin-block-start: 40px;
+  margin-inline: auto;
+  position: relative;
+  z-index: 1;
+}
+
+.recruit-voices_bottom_ttl {
+  background-color: #cba449;
+  font-size: 2.2rem;
+  color: #fff;
+  padding-block: 0.8em;
+  padding-inline: 1em;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  position: relative;
+  z-index: 2;
+}
+@media screen and (max-width: 1023px) {
+  .recruit-voices_bottom_ttl br {
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  .recruit-voices_bottom_ttl {
+    font-size: 4.4vw;
+    -webkit-margin-start: 1em;
+            margin-inline-start: 1em;
+  }
+}
+
+.recruit-voices_bottom_ttl_txt {
+  font-weight: bold;
+  line-height: 1.4;
+  -webkit-margin-before: 0.4em;
+          margin-block-start: 0.4em;
+  display: block;
+}
+
+.recruit-voices_bottom_content {
+  position: absolute;
+  z-index: 1;
+  top: 1.9em;
+  right: 0;
+  width: 80%;
+  border: 3px solid #cba449;
+  font-size: 1.5rem;
+  padding-block: 2.5em;
+  padding-inline: 5em 2.5em;
+  text-align: justify;
+}
+@media screen and (max-width: 1023px) {
+  .recruit-voices_bottom_content {
+    -webkit-padding-start: 2.5em;
+            padding-inline-start: 2.5em;
+    top: 5em;
+    width: 90%;
+    -webkit-margin-before: -2em;
+            margin-block-start: -2em;
+  }
+}
+@media screen and (max-width: 768px) {
+  .recruit-voices_bottom_content {
+    position: static;
+    width: 100%;
+    border-width: 2px;
+    padding-inline: 1.5em;
+    -webkit-padding-before: 3em;
+            padding-block-start: 3em;
+  }
+}
+/*# sourceMappingURL=recruit-voices.css.map */

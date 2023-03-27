@@ -25669,3 +25669,70 @@ table.tb_v2 th, table.tb_v2 td {
   }
 }
 
+/* 採用情報：先輩の声リンク */
+.link-to-voices_wrap {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-block: 30px;
+    gap: 10px;
+  }
+  
+  .link-to-voice {
+    font-size: 1.3rem;
+    width: 340px;
+    border: 1px solid #000;
+    display: grid;
+    grid-template-columns: 25% 1fr 6%;
+    gap: 1em;
+  }
+  @media screen and (max-width: 768px) {
+    .link-to-voice {
+      font-size: 3.2vw;
+      width: 100%;
+    }
+  }
+  .link-to-voice img {
+    display: block;
+    width: 100%;
+    border-right: 1px solid #000;
+  }
+  .link-to-voice:hover {
+    background-color: #f2f2f2;
+  }
+  @media screen and (max-width: 768px) {
+    .link-to-voice:hover {
+      background-color: inherit;
+    }
+  }
+  .link-to-voice:hover img {
+    opacity: 0.8;
+  }
+  @media screen and (max-width: 768px) {
+    .link-to-voice:hover img {
+      opacity: 1;
+    }
+  }
+  
+  .link-to-voice_txt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .link-to-voice_txt span {
+    display: block;
+  }
+  .link-to-voice_txt .link-to-voice_ttl {
+    -webkit-margin-after: 0.6em;
+            margin-block-end: 0.6em;
+    line-height: 1;
+  }
+  .link-to-voice_txt .link-to-voice_script {
+    line-height: 1.4;
+  }
+  
+  .link-to-voice-triangle {
+    align-self: center;
+    width: 11px;
+  }
