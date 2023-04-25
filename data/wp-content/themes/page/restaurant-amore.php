@@ -87,7 +87,7 @@ Template Name: レストラン＆バー - メインバー・アモーレ
 													<?php foreach ( $posts as $post ) : setup_postdata( $post ); ?>
 														<?php if(has_post_thumbnail()): ?>
 															<?php $thumbnail_id = get_post_thumbnail_id(); $eye_img = wp_get_attachment_image_src( $thumbnail_id , 'photo_a' ); ?>	
-															<img src="<?php echo $eye_img[0];　?>">
+															<img src="<?php echo $eye_img[0];?>">
 														<?php endif; ?>											
 													<?php endforeach; ?>
 													<?php endif; wp_reset_postdata(); ?>
@@ -124,7 +124,7 @@ Template Name: レストラン＆バー - メインバー・アモーレ
 								<div class="info_item">
 									<?php if(has_post_thumbnail()): ?>
 										<?php $thumbnail_id = get_post_thumbnail_id(); $eye_img = wp_get_attachment_image_src( $thumbnail_id , 'large' ); ?>	
-										<figure class="info_item_img"><span data-image="<?php echo $eye_img[0];　?>"></span></figure>
+										<figure class="info_item_img"><span data-image="<?php echo $eye_img[0];?>"></span></figure>
 									<?php endif; ?>
 									<div class="info_tbox">
 										<div class="postbox">

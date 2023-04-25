@@ -73,9 +73,6 @@ Del Sole is located in Hotel Kyocera’s sun-drenched atrium space. This open re
 												<dt>Holiday</dt>
 												<dd>
 													Wednesday
-													<?php date_default_timezone_set('Asia/Tokyo'); if  ( date(YmdHi) <= "202102010000" ): ?>
-													（February 1, 2021 -）
-													<?php endif; ?>
 												</dd>
 											</dl>
                                         </div>
@@ -104,9 +101,6 @@ KYO-HARUKA provides you with traditional Japanese atmosphere and cuisine made fr
 												<dt>Holiday</dt>
 												<dd>
 													Tuesday
-													<?php date_default_timezone_set('Asia/Tokyo'); if  ( date(YmdHi) <= "202102010000" ): ?>
-													（February 1, 2021 -）
-													<?php endif; ?>
 												</dd>
 											</dl>
                                         </div>
@@ -163,9 +157,6 @@ YUMENOKUNI is a casual restaurant showered in bright sunshine. Enjoy yourself fu
 												<dt>Holiday</dt>
 												<dd>
 													Monday
-													<?php date_default_timezone_set('Asia/Tokyo'); if  ( date(YmdHi) <= "202102010000" ): ?>
-													（February 1, 2021 -）
-													<?php endif; ?>
 												</dd>
 											</dl>											
                                         </div>

@@ -103,54 +103,7 @@ Template Name: アプリメンバーズ
                             <span class="mttls_en en">FLOW</span>
                             <span class="mttls_ja">アプリメンバーズへの入会の流れ</span>
                         </h2>
-						<?php date_default_timezone_set('Asia/Tokyo'); if  ( date(YmdHi) <= "202109010000" ): ?>
-                        	<p class="tac sp_tal mb40 smb30 sp_sps">既存会員様はもちろん、新規でご入会のお客様も、アプリメンバーズで即日入会していただくことが可能です。</p>
-						<?php else: ?>
 							<p class="tac sp_tal mb40 smb30 sp_sps">アプリメンバーズで即日入会していただくことが可能です。</p>
-						<?php endif; ?>
-						<?php date_default_timezone_set('Asia/Tokyo'); if  ( date(YmdHi) <= "202109010000" ): ?>
-                        <article class="mb10 smb20">
-                            <h3 class="sttl ja-min mb40 sp_sps fs20 tac">既存会員様　メンバーズカードからの引継ぎ方法</h3>
-                            <div class="imgbox_flow4">
-                                <div class="flow_item">
-                                    <div class="flow_item_inner">
-                                        <figure class="flow_img"><img src="<?php bloginfo('template_directory'); ?>/assets/images/members/img_flow01.png" alt=""></figure>
-                                        <div class="flow_item_tbox">
-                                            <h2 class="flow_ttl">1.「メンバーズポイント」のアイコンをタップ</h2>
-                                            <p class="flow_txt">アプリを起動し、右上の「メンバーズポイント」のアイコンをタップします。</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="flow_item">
-                                    <div class="flow_item_inner">
-                                        <figure class="flow_img"><img src="<?php bloginfo('template_directory'); ?>/assets/images/members/img_flow02.png" alt=""></figure>
-                                        <div class="flow_item_tbox">
-                                            <h2 class="flow_ttl">2.「カード会員」のアイコンをタップ</h2>
-                                            <p class="flow_txt">ページ下部の「カード会員」の赤のボタンをタップします。</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="flow_item">
-                                    <div class="flow_item_inner">
-                                        <figure class="flow_img"><img src="<?php bloginfo('template_directory'); ?>/assets/images/members/img_flow03.png" alt=""></figure>
-                                        <div class="flow_item_tbox">
-                                            <h2 class="flow_ttl">3.「会員No.」と「生年月日」を選択します。</h2>
-                                            <p class="flow_txt">メンバーズカードに記載された「会員No.」と、ご自身の「生年月日」を選択します。</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="flow_item">
-                                    <div class="flow_item_inner">
-                                        <figure class="flow_img"><img src="<?php bloginfo('template_directory'); ?>/assets/images/members/img_flow04.png" alt=""></figure>
-                                        <div class="flow_item_tbox">
-                                            <h2 class="flow_ttl">4.引継ぎ登録完了</h2>
-                                            <p class="flow_txt">「会員No.」、「生年月日」選択後、ページ下部の「ポイントカード引継」のボタンをタップし、引継ぎ登録完了です。</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </article>
-						<?php endif; ?>
                     </article>
                 </section>                
                 <section class="content bg_gray">

@@ -108,7 +108,7 @@ Template Name: 温泉・スパ・プール・ジム
                        	    	<div class="info_item cat_new  cat_<?php foreach($cats as $cat):  if($cat->parent) echo $cat->category_nicename; endforeach; ?>">
 									<?php if(has_post_thumbnail()): ?>
 										<?php $thumbnail_id = get_post_thumbnail_id(); $eye_img = wp_get_attachment_image_src( $thumbnail_id , 'large' ); ?>	
-										<figure class="info_item_img"><span data-image="<?php echo $eye_img[0];　?>"></span></figure>
+										<figure class="info_item_img"><span data-image="<?php echo $eye_img[0];?>"></span></figure>
 									<?php endif; ?>
 									<div class="info_tbox">
 										<div class="postbox">

@@ -70,9 +70,6 @@ Template Name: 簡体中文 - 餐厅&酒吧
 												<dt>固定休息时间</dt>
 												<dd>
 													Wednesday
-													<?php date_default_timezone_set('Asia/Tokyo'); if  ( date(YmdHi) <= "202102010000" ): ?>
-													（February 1, 2021 -）
-													<?php endif; ?>
 												</dd>
 											</dl>
                                         </div>
@@ -101,9 +98,6 @@ Template Name: 簡体中文 - 餐厅&酒吧
 												<dt>固定休息时间</dt>
 												<dd>
 													Tuesday
-													<?php date_default_timezone_set('Asia/Tokyo'); if  ( date(YmdHi) <= "202102010000" ): ?>
-													（February 1, 2021 -）
-													<?php endif; ?>
 												</dd>
 											</dl>
                                         </div>
@@ -160,9 +154,6 @@ Template Name: 簡体中文 - 餐厅&酒吧
 												<dt>固定休息时间</dt>
 												<dd>
 													Monday
-													<?php date_default_timezone_set('Asia/Tokyo'); if  ( date(YmdHi) <= "202102010000" ): ?>
-													（February 1, 2021 -）
-													<?php endif; ?>
 												</dd>
 											</dl>											
                                         </div>

@@ -84,18 +84,12 @@ add_action( 'admin_menu', 'change_post_menu_label' );
 add_theme_support('post-thumbnails');
 
 /*レストラン予約フォーム*/
-add_filter('mwform_value_mw-wp-form-9624','my_mwform_value',10,2);
-function my_mwform_value($value, $data){
-    //処理を記述する
-    return $value;
-}
-
-function custom_query_vars( $public_query_vars ){
-    $public_query_vars[] = 'option_id';
+add_filter( 'mwform_value_mw-wp-form-9624', 'my_mwform_value', 10, 2 );
+function custom_query_vars( $public_query_vars ) {
+$public_query_vars[] = 'option_id';
     return $public_query_vars;
 }
 add_filter( 'query_vars', 'custom_query_vars' );
-
 
 
 /*レストラン予約送信先振り分け*/

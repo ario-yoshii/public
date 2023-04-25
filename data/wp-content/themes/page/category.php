@@ -257,7 +257,7 @@
 								<div class="ns_item">
 									<?php if(has_post_thumbnail()): ?>
 										<?php $thumbnail_id = get_post_thumbnail_id(); $eye_img = wp_get_attachment_image_src( $thumbnail_id , 'large' ); ?>
-										<figure class="ns_item_img"><span data-image="<?php echo $eye_img[0];　?>"></span></figure>
+										<figure class="ns_item_img"><span data-image="<?php echo $eye_img[0];?>"></span></figure>
 									<?php endif; ?>									
 									<div class="ns_tbox">
 										<div class="postbox">

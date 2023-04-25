@@ -25,7 +25,7 @@ if (screen.width < 768) {
 <link rel="apple-touch-icon" sizes="152x152" href="<?php bloginfo('template_directory'); ?>/assets/icon/apple_touch_icon.png">-->
 <!-- <link href="https://fonts.googleapis.com/css?family=Noto+Serif+JP:500,600&display=swap&subset=japanese" rel="stylesheet"> -->
 <script src="https://tripla.jp/sdk/javascript/tripla.min.js"; data-triplabot-code="d95c09cc935fabe8840c5c40e63b669c"></script>
-<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/assets/css/style.css?v=20211101" type="text/css">
+<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/assets/css/style.css?v=20230327" type="text/css">
 <?php if ( is_singular('recruit_voices') ): ?>
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/recruit-voices/recruit-voices.min.css">
 <?php endif; ?>

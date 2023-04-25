@@ -139,7 +139,7 @@ Template Name: レストラン＆バー - 洋食レストラン デルソーレ
 								<div class="info_item">
 									<?php if(has_post_thumbnail()): ?>
 										<?php $thumbnail_id = get_post_thumbnail_id(); $eye_img = wp_get_attachment_image_src( $thumbnail_id , 'large' ); ?>	
-										<figure class="info_item_img"><span data-image="<?php echo $eye_img[0];　?>"></span></figure>
+										<figure class="info_item_img"><span data-image="<?php echo $eye_img[0];?>"></span></figure>
 									<?php endif; ?>
 									<div class="info_tbox">
 										<div class="postbox">
@@ -183,11 +183,7 @@ Template Name: レストラン＆バー - 洋食レストラン デルソーレ
                                         </dl>
 										<dl class="dl_tnses_m">
 											<dt>定休日</dt>
-                                            <dd>毎週水曜日
-												<?php date_default_timezone_set('Asia/Tokyo'); if  ( date(YmdHi) <= "202102010000" ): ?>
-												（2021年2月1日～）
-												<?php endif; ?>
-											</dd>
+                                            <dd>毎週水曜日</dd>
 										</dl>
                                         <dl class="dl_tnses_m">
                                             <dt>TEL</dt>

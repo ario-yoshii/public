@@ -72,9 +72,6 @@ Template Name: 韓国語 - RESTAURANT&BAR
 												<dt>정기휴일</dt>
 												<dd>
 													Wednesday
-													<?php date_default_timezone_set('Asia/Tokyo'); if  ( date(YmdHi) <= "202102010000" ): ?>
-													（February 1, 2021 -）
-													<?php endif; ?>
 												</dd>
 											</dl>
                                         </div>
@@ -103,9 +100,6 @@ Template Name: 韓国語 - RESTAURANT&BAR
 												<dt>정기휴일</dt>
 												<dd>
 													Tuesday
-													<?php date_default_timezone_set('Asia/Tokyo'); if  ( date(YmdHi) <= "202102010000" ): ?>
-													（February 1, 2021 -）
-													<?php endif; ?>
 												</dd>
 											</dl>
                                         </div>
@@ -164,9 +158,6 @@ Template Name: 韓国語 - RESTAURANT&BAR
 												<dt>정기휴일</dt>
 												<dd>
 													Monday
-													<?php date_default_timezone_set('Asia/Tokyo'); if  ( date(YmdHi) <= "202102010000" ): ?>
-													（February 1, 2021 -）
-													<?php endif; ?>
 												</dd>
 											</dl>											
                                         </div>

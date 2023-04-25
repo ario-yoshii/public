@@ -67,7 +67,7 @@ Template Name: レストラン＆バー
                        	    	<div class="info_item cat_new">
 									<?php if(has_post_thumbnail()): ?>
 										<?php $thumbnail_id = get_post_thumbnail_id(); $eye_img = wp_get_attachment_image_src( $thumbnail_id , 'large' ); ?>	
-										<figure class="info_item_img"><span data-image="<?php echo $eye_img[0];　?>"></span></figure>
+										<figure class="info_item_img"><span data-image="<?php echo $eye_img[0];?>"></span></figure>
 									<?php endif; ?>
 									<div class="info_tbox">
 										<div class="postbox">
@@ -97,7 +97,7 @@ Template Name: レストラン＆バー
                        	    	<div class="info_item cat_delsole">
 									<?php if(has_post_thumbnail()): ?>
 										<?php $thumbnail_id = get_post_thumbnail_id(); $eye_img = wp_get_attachment_image_src( $thumbnail_id , 'medium' ); ?>	
-										<figure class="info_item_img"><span data-image="<?php echo $eye_img[0];　?>"></span></figure>
+										<figure class="info_item_img"><span data-image="<?php echo $eye_img[0];?>"></span></figure>
 									<?php endif; ?>
 									<div class="info_tbox">
 										<div class="postbox">
@@ -126,7 +126,7 @@ Template Name: レストラン＆バー
                        	    	<div class="info_item cat_kyoharuka">
 									<?php if(has_post_thumbnail()): ?>
 										<?php $thumbnail_id = get_post_thumbnail_id(); $eye_img = wp_get_attachment_image_src( $thumbnail_id , 'large' ); ?>	
-										<figure class="info_item_img"><span data-image="<?php echo $eye_img[0];　?>"></span></figure>
+										<figure class="info_item_img"><span data-image="<?php echo $eye_img[0];?>"></span></figure>
 									<?php endif; ?>
 									<div class="info_tbox">
 										<div class="postbox">
@@ -156,7 +156,7 @@ Template Name: レストラン＆バー
                        	    	<div class="info_item cat_amore">
 									<?php if(has_post_thumbnail()): ?>
 										<?php $thumbnail_id = get_post_thumbnail_id(); $eye_img = wp_get_attachment_image_src( $thumbnail_id , 'medium' ); ?>	
-										<figure class="info_item_img"><span data-image="<?php echo $eye_img[0];　?>"></span></figure>
+										<figure class="info_item_img"><span data-image="<?php echo $eye_img[0];?>"></span></figure>
 									<?php endif; ?>
 									<div class="info_tbox">
 										<div class="postbox">
@@ -186,7 +186,7 @@ Template Name: レストラン＆バー
                        	    	<div class="info_item cat_yumenokuni">
 									<?php if(has_post_thumbnail()): ?>
 										<?php $thumbnail_id = get_post_thumbnail_id(); $eye_img = wp_get_attachment_image_src( $thumbnail_id , 'large' ); ?>	
-										<figure class="info_item_img"><span data-image="<?php echo $eye_img[0];　?>"></span></figure>
+										<figure class="info_item_img"><span data-image="<?php echo $eye_img[0];?>"></span></figure>
 									<?php endif; ?>
 									<div class="info_tbox">
 										<div class="postbox">
@@ -234,9 +234,6 @@ Template Name: レストラン＆バー
                                             <dt>定休日</dt>
                                             <dd>
                                                 毎週水曜日
-												<?php date_default_timezone_set('Asia/Tokyo'); if  ( date(YmdHi) <= "202102010000" ): ?>
-												（2021年2月1日～）
-												<?php endif; ?>
                                             </dd>
                                         </dl>
                                     </div>
@@ -264,9 +261,6 @@ Template Name: レストラン＆バー
                                             <dt>定休日</dt>
                                             <dd>
                                                 毎週月曜日、火曜日
-												<?php date_default_timezone_set('Asia/Tokyo'); if  ( date(YmdHi) <= "202102010000" ): ?>
-												（2021年2月1日～）
-												<?php endif; ?>
                                             </dd>
                                         </dl>
                                     </div>
@@ -321,9 +315,6 @@ Template Name: レストラン＆バー
                                             <dt>定休日</dt>
                                             <dd>
                                                 毎週月曜日
-												<?php date_default_timezone_set('Asia/Tokyo'); if  ( date(YmdHi) <= "202102010000" ): ?>
-												（2021年2月1日～）
-												<?php endif; ?>
                                             </dd>
                                         </dl>
                                     </div>

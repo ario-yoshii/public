@@ -126,8 +126,9 @@ Template Name: レストラン＆バー - バイキングレストラン 夢の�
 							</h2>
 						</div>
 
-						<?php date_default_timezone_set('Asia/Tokyo');
-						if (date(YmdHm) > "202103312359" || is_user_logged_in()) : /*2021/03/31 23:59まで表示*/ ?>
+							<?php 
+							date_default_timezone_set('Asia/Tokyo');
+							if (date('YmdHm') > "202103312359" || is_user_logged_in()) : ?>
 
 							<article class="inner_sb pb80 spb60 sp_inner_b pl10 pr10 sfs12">
 								<table>
@@ -150,7 +151,7 @@ Template Name: レストラン＆バー - バイキングレストラン 夢の�
 										</tr>
 										<tr>
 											<th class="sub">ディナータイム</th>
-											<?php if (date_i18n("Ymd") <= "20230331") : /*2023年3月31日まで表示*/ ?>
+											<?php if (date_i18n("Ymd") <= "20230331") : ?>
 												<td>3,080円</td>
 												<td>2,970円</td>
 												<td>1,760円</td>
@@ -226,8 +227,7 @@ Template Name: レストラン＆バー - バイキングレストラン 夢の�
 											<?php if (has_post_thumbnail()) : ?>
 												<?php $thumbnail_id = get_post_thumbnail_id();
 												$eye_img = wp_get_attachment_image_src($thumbnail_id, 'large'); ?>
-												<figure class="info_item_img"><span data-image="<?php echo $eye_img[0];
-																								　 ?>"></span></figure>
+												<figure class="info_item_img"><span data-image="<?php echo $eye_img[0];?>"></span></figure>
 											<?php endif; ?>
 											<div class="info_tbox">
 												<div class="postbox">
@@ -272,12 +272,7 @@ Template Name: レストラン＆バー - バイキングレストラン 夢の�
 										</dl>
 										<dl class="dl_tnses_m">
 											<dt>定休日</dt>
-											<dd>毎週月曜日
-												<?php date_default_timezone_set('Asia/Tokyo');
-												if (date(YmdHi) <= "202102010000") : ?>
-													（2021年2月1日～）
-												<?php endif; ?>
-											</dd>
+											<dd>毎週月曜日</dd>
 										</dl>
 										<dl class="dl_tnses_m">
 											<dt>TEL</dt>
