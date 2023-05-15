@@ -162,7 +162,7 @@ Template Name: レストラン＆バー - 京はるか
                                         <?php if (has_post_thumbnail()) : ?>
                                             <?php $thumbnail_id = get_post_thumbnail_id();
                                             $eye_img = wp_get_attachment_image_src($thumbnail_id, 'large'); ?>
-                                            <figure class="info_item_img"><span data-image="<?php echo $eye_img[0];?>"></span></figure>
+                                            <figure class="info_item_img"><span data-image="<?php echo $eye_img[0]; ?>"></span></figure>
                                         <?php endif; ?>
                                         <div class="info_tbox">
                                             <div class="postbox">
@@ -201,7 +201,7 @@ Template Name: レストラン＆バー - 京はるか
                                             <dt class="pt15">営業時間</dt>
                                             <dd class="pt15">
                                                 <span class="hourbox_m">ランチ</span>11:30～14:30（L.O. 14:00）<br>
-                                                <span class="hourbox_m">ディナー</span>通　常：17:30～20:00（L.O. 19:00）<br>　　　　　　土曜日：17:30～21:00（L.O. 19:30）
+                                                <span class="hourbox_m">ディナー</span>17:30～21:00（L.O. 19:30）
                                             </dd>
                                         </dl>
                                         <dl class="dl_tnses_m">
@@ -214,7 +214,7 @@ Template Name: レストラン＆バー - 京はるか
                                         </dl>
                                         <dl class="dl_tnses_m">
                                             <dt>席数</dt>
-                                            <dd>テーブル席（ホール） 21席／テーブル個室 3室24席／お座敷 2室14席</dd>
+                                            <dd>テーブル席（ホール） 21席／テーブル個室 4室30席／お座敷 1室4席</dd>
                                         </dl>
                                     </article>
                                     <p class="fs13">※全席禁煙となります。</p>

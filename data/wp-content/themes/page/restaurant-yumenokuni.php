@@ -126,9 +126,9 @@ Template Name: レストラン＆バー - バイキングレストラン 夢の�
 							</h2>
 						</div>
 
-							<?php 
-							date_default_timezone_set('Asia/Tokyo');
-							if (date('YmdHm') > "202103312359" || is_user_logged_in()) : ?>
+						<?php
+						date_default_timezone_set('Asia/Tokyo');
+						if (date('YmdHm') > "202103312359" || is_user_logged_in()) : ?>
 
 							<article class="inner_sb pb80 spb60 sp_inner_b pl10 pr10 sfs12">
 								<table>
@@ -227,7 +227,7 @@ Template Name: レストラン＆バー - バイキングレストラン 夢の�
 											<?php if (has_post_thumbnail()) : ?>
 												<?php $thumbnail_id = get_post_thumbnail_id();
 												$eye_img = wp_get_attachment_image_src($thumbnail_id, 'large'); ?>
-												<figure class="info_item_img"><span data-image="<?php echo $eye_img[0];?>"></span></figure>
+												<figure class="info_item_img"><span data-image="<?php echo $eye_img[0]; ?>"></span></figure>
 											<?php endif; ?>
 											<div class="info_tbox">
 												<div class="postbox">
@@ -267,7 +267,7 @@ Template Name: レストラン＆バー - バイキングレストラン 夢の�
 											<dd class="pt15">
 												<span class="hourbox_m">朝食</span> 6:30～10:00（L.I. 9:30）<br>
 												<span class="hourbox_m">ランチ</span>11:30～14:30（L.I. 14:00）<br>
-												<span class="hourbox_m">ディナー</span>通　常：17:00～20:00（L.I. 19:00）<br>　　　　　　土曜日：17:00～21:00（L.I. 20:00）
+												<span class="hourbox_m">ディナー</span>17:00～21:00（L.I. 19:30）
 											</dd>
 										</dl>
 										<dl class="dl_tnses_m">
@@ -280,7 +280,7 @@ Template Name: レストラン＆バー - バイキングレストラン 夢の�
 										</dl>
 										<dl class="dl_tnses_m">
 											<dt>最大収容人数</dt>
-											<dd>ホール 73席／団体席 44席</dd>
+											<dd>ホール 70席／団体席 44席</dd>
 										</dl>
 									</article>
 									<p class="fs13">※全席ホール席、全席禁煙となります。</p>
