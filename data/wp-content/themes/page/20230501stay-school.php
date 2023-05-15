@@ -182,21 +182,11 @@ Template Name: ご宿泊 - 修学旅行でのご利用について
                     </div>
 					
                     
-                    <div class="tac mt30 mb30 pl20 pr20 onlyPc">
-						<?php if ( date_i18n("Ymd")>="20230508" ):?>
-						<?php else:?>
-						<a href="<?php bloginfo('template_directory'); ?>/assets/pdf/leaflet202012.pdf" target="_blank"><img src="<?php bloginfo('template_directory'); ?>/assets/images/banner_2.png" alt="新型コロナウイルス感染症への安全対策について"/></a>
-						<?php endif;?>
-                   		<a href="<?php bloginfo('template_directory'); ?>/assets/pdf/school_excursion_ver07.pdf" target="_blank" class="pl10"><img src="<?php bloginfo('template_directory'); ?>/assets/images/banner_3.png" alt="修学旅行のご案内"/></a>
+                    <div class="tac mt30 mb30 pl20 pr20 onlyPc"> <a href="<?php bloginfo('template_directory'); ?>/assets/pdf/leaflet202012.pdf" target="_blank"><img src="<?php bloginfo('template_directory'); ?>/assets/images/banner_2.png" alt="新型コロナウイルス感染症への安全対策について"/></a>
+                    <a href="<?php bloginfo('template_directory'); ?>/assets/pdf/school_excursion_ver06.pdf" target="_blank" class="pl10"><img src="<?php bloginfo('template_directory'); ?>/assets/images/banner_3.png" alt="修学旅行のご案内"/></a>
 					</div>
-					<?php if ( date_i18n("Ymd")>="20230508" ):?>
-					<?php else:?>
-					<div class="tac mt30 mb20 pl20 pr20 onlySp">
-						<a href="<?php bloginfo('template_directory'); ?>/assets/pdf/leaflet202012.pdf" target="_blank"><img src="<?php bloginfo('template_directory'); ?>/assets/images/banner_2.png" alt="新型コロナウイルス感染症への安全対策について"/></a>
-					</div>
-					<?php endif;?>
-                    <div class="tac mt30 mb30 pl10 pr20 onlySp">
-						<a href="<?php bloginfo('template_directory'); ?>/assets/pdf/school_excursion_ver07.pdf" target="_blank"><img src="<?php bloginfo('template_directory'); ?>/assets/images/banner_3.png" alt="修学旅行のご案内" style="height: 77px;"/></a>
+					<div class="tac mt30 mb20 pl20 pr20 onlySp"> <a href="<?php bloginfo('template_directory'); ?>/assets/pdf/leaflet202012.pdf" target="_blank"><img src="<?php bloginfo('template_directory'); ?>/assets/images/banner_2.png" alt="新型コロナウイルス感染症への安全対策について"/></a>
+                    <div class="tac mt30 mb30 pl10 pr20 onlySp"> <a href="<?php bloginfo('template_directory'); ?>/assets/pdf/school_excursion_ver06.pdf" target="_blank"><img src="<?php bloginfo('template_directory'); ?>/assets/images/banner_3.png" alt="修学旅行のご案内" style="height: 77px;"/></a>
 					</div>
                     
                 </section>

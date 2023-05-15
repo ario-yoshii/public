@@ -81,13 +81,7 @@
 									<?php endif; wp_reset_postdata(); ?>
                                     <a href="<?php bloginfo('url'); ?>/news/" class="txtbtn mt20 smt40"><span>その他のお知らせ</span></a>
                                 </div>
-										
-								<?php if ( date_i18n("Ymd")>="20230508" ):?>
-								<?php else:?>
-										<a href="https://www.h-kyocera.co.jp/data/wp-content/uploads/information_20220418.pdf" target="_blank" class="news_bnr"><img src="<?php bloginfo('template_directory'); ?>/assets/images/bnr_01.png" alt=""></a>
-								<?php endif;?>
-
-										
+                                <a href="https://www.h-kyocera.co.jp/data/wp-content/uploads/information_20220418.pdf" target="_blank" class="news_bnr"><img src="<?php bloginfo('template_directory'); ?>/assets/images/bnr_01.png" alt=""></a>
                             </div>
                         </article>
 						<?php date_default_timezone_set('Asia/Tokyo'); if ( date("YmdHi") >= "202110010000" ): /*2021年10月01日まで表示*/?>
