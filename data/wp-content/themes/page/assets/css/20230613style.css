@@ -3794,22 +3794,15 @@ label {
     width: auto;
   }
 }
-#form_container .fm_item input,  #form_container .fm_item select {
+#form_container .fm_item input {
   width: 100%;
   height: auto;
   background-color: #F2F2F2;
   border: none;
   padding: 15px 20px;
 }
-#form_container .fm_item select {
-	width: min(100%, 300px);
-	background-image: url("../images/icon_pd_arrow.png");
-	background-repeat: no-repeat;
-	background-size: 1em;
-	background-position: right 1em center;
-}
 @media screen and (max-width: 767px) {
-  #form_container .fm_item input,  #form_container .fm_item select {
+  #form_container .fm_item input {
     padding: 11px 20px;
   }
 }
@@ -8798,18 +8791,12 @@ table.tb_v2 th, table.tb_v2 td {
   width: 758px;
   line-height: 27px;
 }
-.post_contents .fm_flow p {
-	width: 7em;
-}
 @media screen and (max-width: 767px) {
   .post_contents p {
     width: 100%;
     /*margin-bottom: 25px;*/
     line-height: 25px;
   }
-	.post_contents .fm_flow p {
-	width: 100%;
-}
 }
 
 .post_slides {
@@ -25749,21 +25736,3 @@ table.tb_v2 th, table.tb_v2 td {
     align-self: center;
     width: 11px;
   }
-
-/* イベントのフォーム */
-.events-form_wrap {
-	margin-top: 100px;
-	border-top: 1px solid #333;
-	padding-top: 60px;
-}
-@media screen and (max-width: 768px) {
-	.events-form_wrap {
-		margin-top: 5vw;
-	}
-}
-.form-ttl {
-	text-align: center;
-}
-.events-form_wrap #form_container .fm_item .fm_stl {
-  flex: 0 0 324px;
-}
