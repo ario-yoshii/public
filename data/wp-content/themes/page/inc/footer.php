@@ -3,9 +3,13 @@
         <div class="inner">
             <h2 id="ft_logo"><a href="<?php bloginfo('url'); ?>"><img src="<?php bloginfo('template_directory'); ?>/assets/images/ft_logo.png" alt="ホテル京セラ"></a></h2>
             <p id="ft_address">〒899-5117 鹿児島県霧島市隼人町見次1409-1</p>
-            <h3 id="ft_tellno" class="en"><?php if (is_mobile()) : ?><a href="tel:0995-43-7111" onclick="gtag('event', 'tel-tap', {'event_category':'click','event_label': 'footer'});">TEL 0995-43-7111</a><?php else: ?>TEL 0995-43-7111<?php endif; ?></h3>
+            <h3 id="ft_tellno" class="en"><?php if (is_mobile()) : ?><a href="tel:0995-43-7111" onclick="gtag('event', 'tel-tap', {'event_category':'click','event_label': 'footer'});">TEL 0995-43-7111</a><?php else : ?>TEL 0995-43-7111<?php endif; ?></h3>
             <nav class="btns mb30 smb20">
-                <a href="<?php bloginfo('url'); ?>/restaurant/reservation/?post_id=<?php echo $post->ID; ?>" class="squarebtn_restaurant"><span>レストラン予約</span></a>
+                <?php if (in_category(array('restaurant_info', 'delsole_info', 'kyoharuka_info', 'amore_info', 'yumenokuni_info'))) : ?>
+                    <a href="<?php bloginfo('url'); ?>/restaurant/reservation/?post_id=<?php echo $post->ID; ?>" class="squarebtn_restaurant"><span>レストラン予約</span></a>
+                <?php else : ?>
+                    <a href="<?php bloginfo('url'); ?>/restaurant/reservation/" class="squarebtn_restaurant"><span>レストラン予約</span></a>
+                <?php endif; ?>
                 <a href="./?tripla_booking_widget_open=search&type=plan&is_including_occupied=true" class="squarebtn_reserve"><span>宿泊予約</span></a>
             </nav>
             <nav id="ft_txtbtns" class="btns mb30 smb20">

@@ -40,7 +40,7 @@
                     <a href="<?php bloginfo('url'); ?>/relaxation/oxya/"><span>オクシア</span></a>
                     <a href="<?php bloginfo('url'); ?>/relaxation/salon/"><span>リラクゼーションサロン</span></a>
                 </div>
-            </div>			
+            </div>
             <div class="gnavi_item">
                 <a href="<?php bloginfo('url'); ?>/access/" class="mm-target haslow"><span>館内施設</span></a>
                 <div class="low_gnv">
@@ -54,7 +54,7 @@
             <div class="gnavi_item hd_onlyPc">
                 <span class="lang_btmline"></span>
                 <select name="" class="btn_language mm-target en" onchange="location.href=value;">Language
-					<option label="Language" value="<?php bloginfo('url'); ?>/" selected>Language</option>
+                    <option label="Language" value="<?php bloginfo('url'); ?>/" selected>Language</option>
                     <option label="日本語" value="<?php bloginfo('url'); ?>/">日本語</option>
                     <option label="English" value="<?php bloginfo('url'); ?>/en/">English</option>
                     <option label="한국어" value="<?php bloginfo('url'); ?>/kr/">한국어</option>
@@ -66,7 +66,7 @@
         <div class="gnavi_item hd_onlyTb">
             <span class="lang_btmline"></span>
             <select name="" class="btn_language mm-target en" onchange="location.href=value;">
-				<option label="Language" value="<?php bloginfo('url'); ?>/" selected>Language</option>
+                <option label="Language" value="<?php bloginfo('url'); ?>/" selected>Language</option>
                 <option label="日本語" value="<?php bloginfo('url'); ?>/">日本語</option>
                 <option label="English" value="<?php bloginfo('url'); ?>/en/">English</option>
                 <option label="한국어" value="<?php bloginfo('url'); ?>/kr/">한국어</option>
@@ -87,7 +87,11 @@
             <a href="<?php bloginfo('url'); ?>/access/" class="hd_boxbtn sp_accbtn hd_onlyTb"><span>アクセス</span></a>
         </div>
         <div id="revbox">
-            <a href="<?php bloginfo('url'); ?>/restaurant/reservation/?post_id=<?php echo $post->ID; ?>" class="hd_boxbtn restrant_boxbtn"><span>レストラン<br>予約</span></a>
+            <?php if (in_category(array('restaurant_info', 'delsole_info', 'kyoharuka_info', 'amore_info', 'yumenokuni_info'))) : ?>
+                <a href="<?php bloginfo('url'); ?>/restaurant/reservation/?post_id=<?php echo $post->ID; ?>" class="hd_boxbtn restrant_boxbtn"><span>レストラン<br>予約</span></a>
+            <?php else : ?>
+                <a href="<?php bloginfo('url'); ?>/restaurant/reservation/" class="hd_boxbtn restrant_boxbtn"><span>レストラン<br>予約</span></a>
+            <?php endif; ?>
             <a href="./?tripla_booking_widget_open=search&type=plan&is_including_occupied=true" class="hd_boxbtn reserve_boxbtn"><span>宿泊予約</span></a>
         </div>
     </div>
