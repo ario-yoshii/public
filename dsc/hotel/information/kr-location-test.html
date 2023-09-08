@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="kr">
+<head>
+<meta charset="UTF-8">
+<title>한국어-TOP</title>
+	<link href="lib/style.css" rel="stylesheet" type="text/css">
+	<link href="lib/css/lightbox.css" rel="stylesheet" />
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script type="text/javascript" src="lib/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="lib/jquery.rwdImageMaps.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(e) {
+			$('img[usemap]').rwdImageMaps();
+
+			// //5分後にTOPに戻る
+			// function timer_func(){
+			// 	//5分後の移動先
+			// 	location.href='https://www.h-kyocera.co.jp/dsc/hotel/information/index.html';
+			// }
+			// var time_limit=5*60*1000; //制限時間
+			// var timer_id=setTimeout(timer_func, time_limit);
+			// //拾うイベントは追加・調整もできます
+			// $('body').on('keydown mousedown',function(){
+			// 	clearTimeout(timer_id);
+			// 	timer_id=setTimeout(timer_func, time_limit);
+			// });
+		});
+	</script>
+</head>
+
+<body id="location">
+	<div id="main">
+		<img src="img/20200314_kyocera-illustrationmap-2.jpg" alt="Location" width="1920" usemap="#map">
+  	 		<map name="map">
+    			<area target="" alt="MENU" title="MENU" href="kr.html" coords="1683,17,1823,68" shape="rect">
+				<area target="" data-lightbox="demo1" alt="塩浸温泉龍馬公園" title="塩浸温泉龍馬公園" href="img/20200314_7.jpg" coords="746,336,1030,554" shape="rect">
+    			<area target="" data-lightbox="demo2" alt="霧島連山" title="霧島連山" href="img/20200314_6.jpg" coords="1158,114,1482,209" shape="rect">
+    			<area target="" data-lightbox="demo3" alt="霧島神宮" title="霧島神宮" href="img/20200314_5.jpg" coords="1177,227,1472,336" shape="rect">
+    			<area target="" data-lightbox="demo4" alt="黒酢の壺畑" title="黒酢の壺畑" href="img/20200314_4.jpg" coords="1415,936,1769,1070" shape="rect">
+				<area target="" data-lightbox="demo5" alt="桜島" title="桜島" href="img/20200314_3.jpg" coords="801,941,1248,1073" shape="rect">
+    			<area target="" data-lightbox="demo6" alt="鹿児島神宮" title="鹿児島神宮" href="img/20200314_2.jpg" coords="500,607,753,748" shape="rect">
+    			<area target="" data-lightbox="demo7" alt="上野原縄文の森" title="上野原縄文の森" href="img/20200314_1.jpg" coords="1316,819,1581,927" shape="rect">
+			</map>
+</div>
+<script src="lib/js/lightbox.js"></script>
+</body>
+</html>

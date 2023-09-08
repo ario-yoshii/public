@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="jp">
+
+<head>
+	<meta charset="UTF-8">
+	<title>日本語-TOP</title>
+	<link href="lib/style.css" rel="stylesheet" type="text/css">
+	<link href="lib/css/lightbox.css" rel="stylesheet" />
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script type="text/javascript" src="lib/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="lib/jquery.rwdImageMaps.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function (e) {
+			$('img[usemap]').rwdImageMaps();
+
+			// //5分後にTOPに戻る
+			// function timer_func(){
+			// 	//5分後の移動先
+			// 	location.href='https://www.h-kyocera.co.jp/dsc/hotel/information/index.html';
+			// }
+			// var time_limit=5*60*1000; //制限時間
+			// var timer_id=setTimeout(timer_func, time_limit);
+			// //拾うイベントは追加・調整もできます
+			// $('body').on('keydown mousedown',function(){
+			// 	clearTimeout(timer_id);
+			// 	timer_id=setTimeout(timer_func, time_limit);
+			// });
+		});
+	</script>
+</head>
+
+<body id="location">
+	<div id="main">
+		<img src="img/20200314_kyocera-illustrationmap-2.jpg" alt="Location" width="1920">
+
+	</div>
+	<script src="lib/js/lightbox.js"></script>
+</body>
+
+</html>

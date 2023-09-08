@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Select a language</title>
+	<link href="lib/style.css" rel="stylesheet" type="text/css">
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jQuery-rwdImageMaps/1.6/jquery.rwdImageMaps.min.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			$('img[usemap]').rwdImageMaps();
+		});
+	</script>
+</head>
+
+<body id="top">
+	<div id="main">
+		<img src="img/language5.jpg" alt="Language" usemap="#map">
+		<map name="map"><area shape="rect" coords="1011,98,1822,260" href="jp.html" alt="English">
+		  <area shape="rect" coords="1012,280,1823,442" href="en.html" alt="English">
+			<area shape="rect" coords="1013,459,1823,622" href="kr.html" alt="한국어">
+			<area shape="rect" coords="1011,641,1823,801" href="cn.html" alt="簡体中文">
+			<area shape="rect" coords="1013,822,1823,983" href="tc.html" alt="繁體中文">
+      </map>
+	</div>
+</body>
+</html>

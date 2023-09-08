@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="kr">
+<head>
+<meta charset="UTF-8">
+<title>한국어-TOP</title>
+	<link href="lib/style.css" rel="stylesheet" type="text/css">
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jQuery-rwdImageMaps/1.6/jquery.rwdImageMaps.min.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			$('img[usemap]').rwdImageMaps();
+
+			// //5分後にTOPに戻る
+			// function timer_func(){
+			// 	//5分後の移動先
+			// 	location.href='https://www.h-kyocera.co.jp/dsc/hotel/information/index.html';
+			// }
+			// var time_limit=5*60*1000; //制限時間
+			// var timer_id=setTimeout(timer_func, time_limit);
+			// //拾うイベントは追加・調整もできます
+			// $('body').on('keydown mousedown',function(){
+			// 	clearTimeout(timer_id);
+			// 	timer_id=setTimeout(timer_func, time_limit);
+			// });
+		});
+	</script>
+</head>
+
+<body id="acc">
+	<div id="main">
+		<img src="img/kr02_stay.jpg" alt="Accommodations" usemap="#map">
+		<map name="map">
+			<area shape="rect" coords="1683,18,1823,70" href="kr.html" alt="MENU">
+		</map>
+</div>
+</body>
+</html>

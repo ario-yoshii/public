@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="tc">
+<head>
+<meta charset="UTF-8">
+<title>繁体中文-TOP</title>
+	<link href="lib/style.css" rel="stylesheet" type="text/css">
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jQuery-rwdImageMaps/1.6/jquery.rwdImageMaps.min.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			$('img[usemap]').rwdImageMaps();
+
+			// //5分後にTOPに戻る
+			// function timer_func(){
+			// 	//5分後の移動先
+			// 	location.href='https://www.h-kyocera.co.jp/dsc/hotel/information/index.html';
+			// }
+			// var time_limit=5*60*1000; //制限時間
+			// var timer_id=setTimeout(timer_func, time_limit);
+			// //拾うイベントは追加・調整もできます
+			// $('body').on('keydown mousedown',function(){
+			// 	clearTimeout(timer_id);
+			// 	timer_id=setTimeout(timer_func, time_limit);
+			// });
+		});
+	</script>
+</head>
+
+<body id="relaxation1">
+	<div id="main">
+		<img src="img/tc04_relaxation1.jpg" alt="OXYA" usemap="#map">
+		<map name="map"><area shape="rect" coords="1625,991,1825,1061" href="tc-relaxation2.html" alt="Next">
+			<area shape="rect" coords="1682,18,1823,72" href="tc.html" alt="MENU">
+			<area shape="rect" coords="101,991,301,1061" href="tc-relaxation.html" alt="Back">
+		</map>
+</div>
+</body>
+</html>

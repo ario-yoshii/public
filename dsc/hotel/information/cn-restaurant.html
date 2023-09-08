@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="cn">
+<head>
+<meta charset="UTF-8">
+<title>簡体中文-TOP</title>
+	<link href="lib/style.css" rel="stylesheet" type="text/css">
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jQuery-rwdImageMaps/1.6/jquery.rwdImageMaps.min.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			$('img[usemap]').rwdImageMaps();
+
+			// //5分後にTOPに戻る
+			// function timer_func(){
+			// 	//5分後の移動先
+			// 	location.href='https://www.h-kyocera.co.jp/dsc/hotel/information/index.html';
+			// }
+			// var time_limit=5*60*1000; //制限時間
+			// var timer_id=setTimeout(timer_func, time_limit);
+			// //拾うイベントは追加・調整もできます
+			// $('body').on('keydown mousedown',function(){
+			// 	clearTimeout(timer_id);
+			// 	timer_id=setTimeout(timer_func, time_limit);
+			// });
+		});
+	</script>
+</head>
+
+<body id="restaurant">
+	<div id="main">
+		<img src="img/cn03_restaurant0.jpg" alt="Restaurant" usemap="#map">
+		<map name="map"><area shape="rect" coords="1013,813,1822,1013" href="cn-restaurant4.html" alt="YUMENOKUNI"><area shape="rect" coords="1013,593,1822,793" href="cn-restaurant3.html" alt="Amore"><area shape="rect" coords="1014,375,1823,575" href="cn-restaurant2.html" alt="KYO-HARUKA">
+			<area shape="rect" coords="1683,18,1823,70" href="cn.html" alt="MENU">
+			<area shape="rect" coords="1014,156,1823,356" href="cn-restaurant1.html" alt="Del Dole">
+		</map>
+</div>
+</body>
+</html>
