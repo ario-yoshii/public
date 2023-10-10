@@ -84,11 +84,11 @@ Template Name: アクセス＆フロアガイド
                                 </div>
                                 <div class="itd_item_m">
                                     <div class="itd_item_inner">
-                                        <figure class="mb15 smb20"><img src="<?php bloginfo('template_directory'); ?>/assets/images/access/img_access_kagoshima03.jpg" alt=""></figure>
+                                        <figure class="mb15 smb20"><img src="<?php bloginfo('template_directory'); ?>/assets/images/access/230808_img_access_kagoshima03.jpg" alt=""></figure>
                                         <div class="tac">
                                             <h2 class="read_ttl_l ja-min mb20 smb15">JRをご利用の場合</h2>
                                             <p class="read_txt">
-                                                JR九州の日豊本線「隼人駅」で下車してください。隼人駅からタクシーでワンメーターでホテル京セラへ到着いたします。
+                                                JR九州の日豊本線『隼人駅』で下車してください。隼人駅からは徒歩で15分程度、タクシーではワンメーター程の距離になります。タクシーは常駐しておりませんため、ご予約をおすすめいたします。
                                             </p>
                                         </div>
                                     </div>
