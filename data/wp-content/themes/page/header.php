@@ -32,7 +32,7 @@
   <?php endif; ?>
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-NQ6LPRH77Q"></script>
+  <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-NQ6LPRH77Q"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
 
@@ -42,10 +42,28 @@
     gtag('js', new Date());
 
     gtag('config', 'G-NQ6LPRH77Q');
+  </script> -->
+  <!-- Google Tag Manager -->
+  <script>
+    (function(w, d, s, l, i) {
+      w[l] = w[l] || [];
+      w[l].push({
+        'gtm.start': new Date().getTime(),
+        event: 'gtm.js'
+      });
+      var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s),
+        dl = l != 'dataLayer' ? '&l=' + l : '';
+      j.async = true;
+      j.src =
+        'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+      f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-M46J42LT');
   </script>
+  <!-- End Google Tag Manager -->
 </head>
 
-<body <?php body_class(); ?> id="<?php if (is_category() || is_single()) { ?><?php $cat = get_the_category();
-                                                                              $cat = $cat[0]; {
-                                                                                echo $cat->category_nicename;
-                                                                              } ?><?php } ?>">
+<body <?php body_class(); ?> id="<?php if (is_category() || is_single()) { ?><?php $cat = get_the_category(); $cat = $cat[0]; { echo $cat->category_nicename; } ?><?php } ?>">
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M46J42LT" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
