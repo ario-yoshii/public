@@ -298,7 +298,11 @@ Template Name: レストラン＆バー
 										<dl class="openhours">
 											<dt>営業時間</dt>
 											<dd>
-												19:00～23:00（L.O. 22:30）
+												<?php if (date_i18n("Ymd") <= "20231031") : /*2023年10月31日まで表示*/ ?>
+													19:00～23:00（L.O. 22:30）
+												<?php else : ?>
+													20:00～24:00（L.O. 23:30）
+												<?php endif; ?>
 											</dd>
 										</dl>
 										<dl class="openhours">
