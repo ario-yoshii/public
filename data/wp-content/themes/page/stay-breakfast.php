@@ -227,4 +227,17 @@ Template Name: ご宿泊 - 朝食
 <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/assets/js/flick.js"></script>
 <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/assets/js/share.js"></script>
 <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/assets/js/low.js"></script>
-<?php get_footer(); ?>
+<?php get_footer(); ?>       </main><!-- / #maincontainer -->
+
+        <div id="covermc"></div>
+
+    </div><!-- / #wrapper -->
+
+    <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/assets/js/jquery-3.3.0.js"></script>
+    <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/assets/js/jquery.easing.1.3.js"></script>
+    <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/assets/js/retina.js"></script>
+    <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/assets/js/slick.js"></script>
+    <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/assets/js/flick.js"></script>
+    <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/assets/js/share.js"></script>
+    <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/assets/js/low.js"></script>
+    <?php get_footer(); ?>

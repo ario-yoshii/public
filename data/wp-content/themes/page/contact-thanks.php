@@ -70,4 +70,5 @@ Template Name: お問い合わせ - 完了画面
 <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/assets/js/flick.js"></script>
 <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/assets/js/share.js"></script>
 <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/assets/js/low.js"></script>
+<?php get_footer(); ?>s/js/low.js"></script>
 <?php get_footer(); ?>
