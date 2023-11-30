@@ -14,6 +14,9 @@
             <div class="gnavi_item">
                 <a href="<?php bloginfo('url'); ?>/tc/company/" class="mm-target haslow"><span>公司名稱</span></a>
             </div>
+            <div class="gnavi_item">
+                <a href="javascript:void(0);" class="talkappi-faq-icon mm-target haslow"><span>FAQ</a>
+            </div>
            <!-- <div class="gnavi_item">
                 <a href="<?php bloginfo('url'); ?>/tc/access/" class="mm-target haslow"><span>Access</span></a>
             </div>-->

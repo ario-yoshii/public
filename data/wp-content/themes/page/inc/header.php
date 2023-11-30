@@ -51,6 +51,9 @@
                     <a href="<?php bloginfo('url'); ?>/recruit/"><span>求人情報</span></a>
                 </div>
             </div>
+            <div class="gnavi_item">
+                <a href="javascript:void(0);" class="talkappi-faq-icon mm-target haslow"><span>FAQ</a>
+            </div>
             <div class="gnavi_item hd_onlyPc">
                 <span class="lang_btmline"></span>
                 <select name="" class="btn_language mm-target en" onchange="location.href=value;">Language
@@ -94,5 +97,6 @@
             <?php endif; ?>
             <a href="./?tripla_booking_widget_open=search&type=plan&is_including_occupied=true" class="hd_boxbtn reserve_boxbtn"><span>宿泊予約</span></a>
         </div>
+
     </div>
 </header>
