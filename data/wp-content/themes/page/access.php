@@ -134,7 +134,7 @@ Template Name: アクセス＆フロアガイド
                                                 鹿児島空港バス乗り場 (10番) 発着<br>
                                                 大人460円 / 子供230円（2022年10月11日現在）<br>
 
-                                                <a href="https://www.h-kyocera.co.jp/data/wp-content/uploads/airportbus_20230401.pdf" target="_blank" class="btn1">バス時刻表</a>
+                                                <a href="https://www.h-kyocera.co.jp/data/wp-content/uploads/airportbus_20231001.pdf" target="_blank" class="btn1">バス時刻表</a>
 
                                                 <span class="d_block mt5 fs13 lh20">
                                                     ※【鹿屋⇔空港】と表示のあるバスにご乗車くださいませ。<br>
