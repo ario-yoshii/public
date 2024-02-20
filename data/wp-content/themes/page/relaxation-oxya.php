@@ -98,155 +98,88 @@ Template Name: 温泉・スパ・プール・ジム - オクシア
                                 <p class="fs13 mt2">受付時間：6:30～23:00</p>
                             </div>
                         </div>
-                        <?php /*ログインユーザーのみ表示*/ if (is_user_logged_in()) : ?>
-                            <article class="tb_flex_container pt40 spt30 mb70 smb10">
-                                <!-- New -->
-                                <div class="tb_flex_item">
-                                    <h3 class="sttl ja-min">全施設のご利用料金　<span class="fs14 sfs13">※価格は全て税込</span></h3>
-                                    <table>
-                                        <tbody>
-                                            <tr>
-                                                <th></th>
-                                                <th>大人</th>
-                                                <th>小学生</th>
-                                                <th>幼児<br>（4〜6歳）</th>
-                                                <th>3歳以下</th>
-                                            </tr>
-                                            <tr>
-                                                <th>オクシア<br class="onlySp">会員</th>
-                                                <td>500円</td>
-                                                <td>-</td>
-                                                <td>-</td>
-                                                <td>-</td>
-                                            </tr>
-                                            <tr>
-                                                <th>会員の<br class="onlySp">お連れ様</th>
-                                                <td>1,200円</td>
-                                                <td>600円</td>
-                                                <td>500円</td>
-                                                <td>無料</td>
-                                            </tr>
-                                            <tr>
-                                                <th>外来の<br class="onlySp">お客様</th>
-                                                <td colspan="4">プール、スポーツジムは<br>外来のお客様にはご利用頂けません。</td>
-                                            </tr>
-                                            <tr>
-                                                <th>ご宿泊者</th>
-                                                <td>1,000円<br><span class="fs12">付添 500円</span></td>
-                                                <td>500円</td>
-                                                <td>250円</td>
-                                                <td>250円</td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                </div>
-                                <div class="tb_flex_item mb0">
-                                    <h3 class="sttl ja-min">天然温泉のご利用料金　<span class="fs14 sfs13">※価格は全て税込</span></h3>
-                                    <table>
-                                        <tbody>
-                                            <tr>
-                                                <th></th>
-                                                <th>大人</th>
-                                                <th>小学生</th>
-                                                <th>幼児<br>（4〜6歳）</th>
-                                                <th>3歳以下</th>
-                                            </tr>
-                                            <tr>
-                                                <th>オクシア<br class="onlySp">会員</th>
-                                                <td>300円</td>
-                                                <td>-</td>
-                                                <td>-</td>
-                                                <td>-</td>
-                                            </tr>
-                                            <tr>
-                                                <th>会員の<br class="onlySp">お連れ様</th>
-                                                <td>500円</td>
-                                                <td>450円</td>
-                                                <td>300円</td>
-                                                <td>無料</td>
-                                            </tr>
-                                            <tr>
-                                                <th>外来の<br class="onlySp">お客様</th>
-                                                <td>1,200円</td>
-                                                <td>600円</td>
-                                                <td>300円</td>
-                                                <td>無料</td>
-                                            </tr>
-                                            <tr>
-                                                <th>ご宿泊者</th>
-                                                <td colspan="4">無料</td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                </div>
-                            </article>
-                        <?php else : ?>
-                            <article class="tb_flex_container pt40 spt30 mb70 smb10">
-                                <div class="tb_flex_item">
-                                    <h3 class="sttl ja-min">全施設のご利用料金　<span class="fs14 sfs13">※価格は全て税込</span></h3>
-                                    <table>
-                                        <tbody>
-                                            <tr>
-                                                <th></th>
-                                                <th>大人</th>
-                                                <th>小学生</th>
-                                                <th>幼児<br>（4〜6歳）</th>
-                                                <th>3歳以下</th>
-                                            </tr>
-                                            <tr>
-                                                <th>オクシア<br class="onlySp">会員</th>
-                                                <td>500円</td>
-                                                <td>-</td>
-                                                <td>-</td>
-                                                <td>-</td>
-                                            </tr>
-                                            <tr>
-                                                <th>会員の<br class="onlySp">お連れ様</th>
-                                                <td>1,200円</td>
-                                                <td>600円</td>
-                                                <td>500円</td>
-                                                <td>無料</td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                </div>
-                                <div class="tb_flex_item mb0">
-                                    <h3 class="sttl ja-min">天然温泉のご利用料金　<span class="fs14 sfs13">※価格は全て税込</span></h3>
-                                    <table>
-                                        <tbody>
-                                            <tr>
-                                                <th></th>
-                                                <th>大人</th>
-                                                <th>小学生</th>
-                                                <th>幼児<br>（4〜6歳）</th>
-                                                <th>3歳以下</th>
-                                            </tr>
-                                            <tr>
-                                                <th>オクシア<br class="onlySp">会員</th>
-                                                <td>300円</td>
-                                                <td>-</td>
-                                                <td>-</td>
-                                                <td>-</td>
-                                            </tr>
-                                            <tr>
-                                                <th>会員の<br class="onlySp">お連れ様</th>
-                                                <td>500円</td>
-                                                <td>450円</td>
-                                                <td>300円</td>
-                                                <td>無料</td>
-                                            </tr>
-                                            <tr>
-                                                <th>外来の<br class="onlySp">お客様</th>
-                                                <td>1,200円</td>
-                                                <td>600円</td>
-                                                <td>300円</td>
-                                                <td>無料</td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                </div>
-                            </article>
-                        <?php endif; ?>
+                        <article class="tb_flex_container pt40 spt30 mb70 smb10">
+                            <!-- New -->
+                            <div class="tb_flex_item">
+                                <h3 class="sttl ja-min">全施設のご利用料金　<span class="fs14 sfs13">※価格は全て税込</span></h3>
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <th></th>
+                                            <th>大人</th>
+                                            <th>小学生</th>
+                                            <th>幼児<br>（4〜6歳）</th>
+                                            <th>3歳以下</th>
+                                        </tr>
+                                        <tr>
+                                            <th>オクシア<br class="onlySp">会員</th>
+                                            <td>500円</td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                        </tr>
+                                        <tr>
+                                            <th>会員の<br class="onlySp">お連れ様</th>
+                                            <td>1,200円</td>
+                                            <td>600円</td>
+                                            <td>500円</td>
+                                            <td>無料</td>
+                                        </tr>
+                                        <tr>
+                                            <th>外来の<br class="onlySp">お客様</th>
+                                            <td colspan="4">プール、スポーツジムは<br>外来のお客様にはご利用頂けません。</td>
+                                        </tr>
+                                        <tr>
+                                            <th>ご宿泊者</th>
+                                            <td>1,000円<br><span class="fs12">付添 500円</span></td>
+                                            <td>500円</td>
+                                            <td>250円</td>
+                                            <td>250円</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="tb_flex_item mb0">
+                                <h3 class="sttl ja-min">天然温泉のご利用料金　<span class="fs14 sfs13">※価格は全て税込</span></h3>
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <th></th>
+                                            <th>大人</th>
+                                            <th>小学生</th>
+                                            <th>幼児<br>（4〜6歳）</th>
+                                            <th>3歳以下</th>
+                                        </tr>
+                                        <tr>
+                                            <th>オクシア<br class="onlySp">会員</th>
+                                            <td>300円</td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                            <td>-</td>
+                                        </tr>
+                                        <tr>
+                                            <th>会員の<br class="onlySp">お連れ様</th>
+                                            <td>500円</td>
+                                            <td>450円</td>
+                                            <td>300円</td>
+                                            <td>無料</td>
+                                        </tr>
+                                        <tr>
+                                            <th>外来の<br class="onlySp">お客様</th>
+                                            <td>1,200円</td>
+                                            <td>600円</td>
+                                            <td>300円</td>
+                                            <td>無料</td>
+                                        </tr>
+                                        <tr>
+                                            <th>ご宿泊者</th>
+                                            <td colspan="4">無料</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </article>
+
                     </div>
                 </section>
 
