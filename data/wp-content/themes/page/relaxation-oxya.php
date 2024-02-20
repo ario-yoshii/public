@@ -134,7 +134,7 @@ Template Name: 温泉・スパ・プール・ジム - オクシア
                                             <td>1,000円<br><span class="fs12">付添 500円</span></td>
                                             <td>500円</td>
                                             <td>250円</td>
-                                            <td>250円</td>
+                                            <td>無料</td>
                                         </tr>
                                     </tbody>
                                 </table>
