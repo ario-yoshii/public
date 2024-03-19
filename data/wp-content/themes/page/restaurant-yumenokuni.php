@@ -128,7 +128,49 @@ Template Name: レストラン＆バー - バイキングレストラン 夢の�
 
 						<?php
 						date_default_timezone_set('Asia/Tokyo');
-						if (date('YmdHm') > "202103312359" || is_user_logged_in()) : ?>
+						if (date('YmdHm') > "202403312359" || is_user_logged_in()) : ?>
+
+							<article class="inner_sb pb80 spb60 sp_inner_b pl10 pr10 sfs12">
+								<table>
+									<tbody>
+										<tr>
+											<th style="width: 25%;">&nbsp;</th>
+											<th class="sub">大人</th>
+											<th class="sub">ホテルアプリ会員<br>シニア(65歳以上)<br>中高生</th>
+											<th class="sub">小学生</th>
+											<th class="sub">4歳以上</th>
+											<th class="sub">3歳以下</th>
+										</tr>
+										<tr>
+											<th class="sub">ランチタイム</th>
+											<td>2,310円</td>
+											<td>2,200円</td>
+											<td>1,100円</td>
+											<td>660円</td>
+											<td>220円</td>
+										</tr>
+										<tr>
+											<th class="sub">ディナータイム</th>
+											<?php if (date_i18n("Ymd") <= "20230331") : ?>
+												<td>3,080円</td>
+												<td>2,970円</td>
+												<td>1,760円</td>
+												<td>990円</td>
+												<td>440円</td>
+											<?php else : ?>
+												<td>3,400円</td>
+												<td>3,200円</td>
+												<td>1,870円</td>
+												<td>1,100円</td>
+												<td>550円</td>
+											<?php endif; ?>
+										</tr>
+									</tbody>
+								</table>
+								<p class="fs14 tar">※0歳は無料</p>
+							</article>
+
+						<?php else : ?>
 
 							<article class="inner_sb pb80 spb60 sp_inner_b pl10 pr10 sfs12">
 								<table>
@@ -164,37 +206,6 @@ Template Name: レストラン＆バー - バイキングレストラン 夢の�
 												<td>1,100円</td>
 												<td>550円</td>
 											<?php endif; ?>
-										</tr>
-									</tbody>
-								</table>
-								<p class="fs14 tar">※0歳は無料</p>
-							</article>
-
-						<?php else : ?>
-
-							<article class="inner_sb pb80 spb60 sp_inner_b pl10 pr10 sfs12">
-								<table>
-									<tbody>
-										<tr>
-											<th style="width: 25%;">&nbsp;</th>
-											<th class="sub">大人</th>
-											<th class="sub">小学生</th>
-											<th class="sub">4歳以上</th>
-											<th class="sub">3歳以下</th>
-										</tr>
-										<tr>
-											<th class="sub">ランチタイム</th>
-											<td>1,650円</td>
-											<td>1,100円</td>
-											<td>660円</td>
-											<td>220円</td>
-										</tr>
-										<tr>
-											<th class="sub">ディナータイム</th>
-											<td>2,750円</td>
-											<td>1,650円</td>
-											<td>880円</td>
-											<td>330円</td>
 										</tr>
 									</tbody>
 								</table>
