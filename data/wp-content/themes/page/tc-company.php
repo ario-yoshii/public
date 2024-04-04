@@ -9,7 +9,7 @@ Template Name: 繁體中文 - 公司名稱
     <?php include(TEMPLATEPATH . '/inc/header_tc.php'); ?>
 
     <main id="maincontainer" class="container"><!-- #maincontainer -->
-        
+
         <div class="main_bloc">
 
             <section id="lkv" data-image="<?php bloginfo('template_directory'); ?>/assets/images/access/lkv_img_access@2x.jpg"><!-- #kv -->
@@ -21,13 +21,13 @@ Template Name: 繁體中文 - 公司名稱
             <div id="mainsections" class="main_inner">
 
                 <article id="breadcrumb" class="ja-serif"><!-- #breadcrumb -->
-                  <div id="breadcrumb_inner" class="inner_m">
-                    <p>
-                        <a href="<?php bloginfo('url'); ?>/en/">Home</a>
-                        <span class="bcsps">&nbsp;&gt;&nbsp;</span>
-                        <span>公司名稱</span>
-                    </p>
-                  </div>
+                    <div id="breadcrumb_inner" class="inner_m">
+                        <p>
+                            <a href="<?php bloginfo('url'); ?>/en/">Home</a>
+                            <span class="bcsps">&nbsp;&gt;&nbsp;</span>
+                            <span>公司名稱</span>
+                        </p>
+                    </div>
                 </article><!-- /#breadcrumb -->
 
                 <section class="content">
@@ -37,9 +37,9 @@ Template Name: 繁體中文 - 公司名稱
                                 <figure><img src="<?php bloginfo('template_directory'); ?>/assets/images/company/img_company.jpg" alt=""></figure>
                             </div>
                             <p class="tac sp_tal mb83 smb40">
-								飯店是提供各種不期而遇的舞台，無論是住宿、用餐、泡湯、婚禮、會議、娛樂……<br>
-								同時也是讓我們相遇的平台，所以期待在每次的場合都能讓您滿心歡喜，因此以愛為主題的經營概念就此誕生。<br>
-								用（滿心笑容、熱情款待），接待來訪的每位貴賓
+                                飯店是提供各種不期而遇的舞台，無論是住宿、用餐、泡湯、婚禮、會議、娛樂……<br>
+                                同時也是讓我們相遇的平台，所以期待在每次的場合都能讓您滿心歡喜，因此以愛為主題的經營概念就此誕生。<br>
+                                用（滿心笑容、熱情款待），接待來訪的每位貴賓
                             </p>
 
                             <article>
@@ -54,33 +54,35 @@ Template Name: 繁體中文 - 公司名稱
                                 <dl class="dl_tnses_b">
                                     <dt>電話 & 傳真</dt>
                                     <dd>
-										Tel:+81-995-43-7111(main) Fax:+81-995-43-7331
+                                        Tel:+81-995-43-7111(main) Fax:+81-995-43-7331
                                     </dd>
                                 </dl>
                                 <dl class="dl_tnses_b">
                                     <dt>電子信箱</dt>
                                     <dd>
-									<script type="text/javascript">
-								<!--
-								function converter(M){
-								var str="", str_as="";
-								for(var i=0;i<M.length;i++){
-								str_as = M.charCodeAt(i);
-								str += String.fromCharCode(str_as + 1);
-								}
-								return str;
-								}
-								var ad = converter(String.fromCharCode(104,109,101,110,63,103,44,106,120,110)+String.fromCharCode(98,100,113,96,45,98,110,45,105,111));
-								document.write("<a href=\"mai"+"lto:"+ad+"\">"+ad+"<\/a>");
-								//-->
-								</script>
-									</dd>
+                                        <script type="text/javascript">
+                                            <!--
+                                            function converter(M) {
+                                                var str = "",
+                                                    str_as = "";
+                                                for (var i = 0; i < M.length; i++) {
+                                                    str_as = M.charCodeAt(i);
+                                                    str += String.fromCharCode(str_as + 1);
+                                                }
+                                                return str;
+                                            }
+                                            var ad = converter(String.fromCharCode(104, 109, 101, 110, 63, 103, 44, 106, 120, 110) + String.fromCharCode(98, 100, 113, 96, 45, 98, 110, 45, 105, 111));
+                                            document.write("<a href=\"mai" + "lto:" + ad + "\">" + ad + "<\/a>");
+                                            //
+                                            -->
+                                        </script>
+                                    </dd>
                                 </dl>
                                 <dl class="dl_tnses_b">
                                     <dt>開業日期</dt>
                                     <dd>
-										本館1995年9月1日<br>
-										別館2001年4月26日
+                                        本館1995年9月1日<br>
+                                        別館2001年4月26日
                                     </dd>
                                 </dl>
                                 <dl class="dl_tnses_b">
@@ -97,7 +99,7 @@ Template Name: 繁體中文 - 公司名稱
                                 </dl>
                                 <dl class="dl_tnses_b">
                                     <dt>社長</dt>
-                                    <dd>福永 健一 Kenichi Fukunaga</dd>
+                                    <dd>池上 裕成 Hironari Ikeue</dd>
                                 </dl>
                                 <dl class="dl_tnses_b">
                                     <dt>員工數</dt>
@@ -106,22 +108,22 @@ Template Name: 繁體中文 - 公司名稱
                                 <dl class="dl_tnses_b">
                                     <dt>分公司</dt>
                                     <dd>
-										東京辦事處<br>
-										150-0001 東京都涉谷區神宮前6-27-8 KYOSERA Bld.B1F
+                                        東京辦事處<br>
+                                        150-0001 東京都涉谷區神宮前6-27-8 KYOSERA Bld.B1F
                                     </dd>
                                 </dl>
                                 <dl class="dl_tnses_b">
                                     <dt>關係企業</dt>
                                     <dd>
-										KYOSERA株式會社<br>
-										Hotel 日航Princess Kyoto
+                                        KYOSERA株式會社<br>
+                                        Hotel 日航Princess Kyoto
                                     </dd>
                                 </dl>
                             </article>
                         </div>
                     </div>
                 </section>
-                
+
                 <?php include(TEMPLATEPATH . '/inc/footer_tc.php'); ?>
 
             </div>
