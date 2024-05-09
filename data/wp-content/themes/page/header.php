@@ -26,7 +26,7 @@
 <link rel="apple-touch-icon" sizes="152x152" href="<?php bloginfo('template_directory'); ?>/assets/icon/apple_touch_icon.png">-->
   <!-- <link href="https://fonts.googleapis.com/css?family=Noto+Serif+JP:500,600&display=swap&subset=japanese" rel="stylesheet"> -->
   <script src="https://tripla.jp/sdk/javascript/tripla.min.js" ; data-triplabot-code="d95c09cc935fabe8840c5c40e63b669c"></script>
-  <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/assets/css/style.css?v=2306132" type="text/css">
+  <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/assets/css/style.css?v=240509" type="text/css">
   <?php if (is_singular('recruit_voices')) : ?>
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/recruit-voices/recruit-voices.min.css">
   <?php endif; ?>
@@ -63,7 +63,10 @@
   <!-- End Google Tag Manager -->
 </head>
 
-<body <?php body_class(); ?> id="<?php if (is_category() || is_single()) { ?><?php $cat = get_the_category(); $cat = $cat[0]; { echo $cat->category_nicename; } ?><?php } ?>">
+<body <?php body_class(); ?> id="<?php if (is_category() || is_single()) { ?><?php $cat = get_the_category();
+                                                                              $cat = $cat[0]; {
+                                                                                echo $cat->category_nicename;
+                                                                              } ?><?php } ?>">
   <!-- Google Tag Manager (noscript) -->
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M46J42LT" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->

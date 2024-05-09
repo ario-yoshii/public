@@ -29,6 +29,6 @@
         </div>
     </div>
     <div id="ft_btm">
-        <div id="ft_grouptxt"><span class="mr10 smr5">グループサイト:</span><a href="https://www.princess-kyoto.co.jp/" target="_blank"><img src="<?php bloginfo('template_directory'); ?>/assets/images/ft_logo_group.png" alt="ホテル日航プリンセス京都"></a></div>
+        <div id="ft_grouptxt"><span class="mr10 smr0">グループサイト<span class="sep">:</span></span><a href="https://www.princess-kyoto.co.jp/" target="_blank"><img src="<?php bloginfo('template_directory'); ?>/assets/images/ft_logo_group.png" alt="ホテル日航プリンセス京都"></a><a href="https://krd.kyocera.co.jp/" target="_blank" class="smt5"><img src="<?php bloginfo('template_directory'); ?>/assets/images/ft_logo_group_krd-kyocera.png" alt="京セラ興産株式会社"></a></div>
     </div>
 </footer><!-- / footer -->
