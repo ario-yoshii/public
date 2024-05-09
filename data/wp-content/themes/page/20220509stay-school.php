@@ -9,7 +9,7 @@ Template Name: ご宿泊 - 修学旅行でのご利用について
     <?php include(TEMPLATEPATH . '/inc/header.php'); ?>
 
     <main id="maincontainer" class="container"><!-- #maincontainer -->
-
+        
         <div class="main_bloc">
 
             <section id="lkv" data-image="<?php bloginfo('template_directory'); ?>/assets/images/stay/school/lkv_img_school@2x.jpg"><!-- #kv -->
@@ -24,15 +24,15 @@ Template Name: ご宿泊 - 修学旅行でのご利用について
                 <?php include(TEMPLATEPATH . '/inc/reservation.php'); ?>
 
                 <article id="breadcrumb" class="ja-serif"><!-- #breadcrumb -->
-                    <div id="breadcrumb_inner" class="inner_m">
-                        <p>
-                            <a href="<?php bloginfo('url'); ?>/">ホーム</a>
-                            <span class="bcsps">&nbsp;&gt;&nbsp;</span>
-                            <a href="<?php bloginfo('url'); ?>/stay/">ご宿泊</a>
-                            <span class="bcsps">&nbsp;&gt;&nbsp;</span>
-                            <span>修学旅行でのご利用について</span>
-                        </p>
-                    </div>
+                  <div id="breadcrumb_inner" class="inner_m">
+                    <p>
+                        <a href="<?php bloginfo('url'); ?>/">ホーム</a>
+                        <span class="bcsps">&nbsp;&gt;&nbsp;</span>
+                        <a href="<?php bloginfo('url'); ?>/stay/">ご宿泊</a>
+                        <span class="bcsps">&nbsp;&gt;&nbsp;</span>
+                        <span>修学旅行でのご利用について</span>
+                    </p>
+                  </div>
                 </article><!-- /#breadcrumb -->
 
                 <section class="content pb20 spb0">
@@ -43,14 +43,14 @@ Template Name: ご宿泊 - 修学旅行でのご利用について
                         </h2>
                         <h3 class="read_ttl tac ja-min">ホテル京セラでは全国の修学旅行生の宿泊先として受け入れをいたしております</h3>
                         <p class="tac mb20">
-                            食事会場、お部屋等は別館（アネックス）にて<br>
-                            一般のお客様とは離れた場所にご用意しておりますので、安心してご宿泊いただけます。<br>
-                            ぜひホテル京セラをご検討ください。
+食事会場、お部屋等は別館（アネックス）にて<br>
+一般のお客様とは離れた場所にご用意しておりますので、安心してご宿泊いただけます。<br>
+ぜひホテル京セラをご検討ください。
                         </p>
                     </div>
                     <div class="sc_imgcut" data-image="<?php bloginfo('template_directory'); ?>/assets/images/stay/school/img_school_bus.jpg"></div>
                 </section>
-
+                
                 <section class="content bd_btm">
                     <div class="ptb_sps inner_sb pb50">
                         <h2 class="read_ttl tac ja-min mb30">ホテル京セラ別館 <br class="onlySp">修学旅行受入概要（高校生・中学生）</h2>
@@ -180,18 +180,18 @@ Template Name: ご宿泊 - 修学旅行でのご利用について
                             </article>
                         </div>
                     </div>
-
-
-                    <div class="tac mt30 mb30 pl20 pr20 onlyPc">
-                        <a href="<?php bloginfo('template_directory'); ?>/assets/pdf/school_excursion_ver09.pdf" target="_blank" class="pl10"><img src="<?php bloginfo('template_directory'); ?>/assets/images/banner_3.png" alt="修学旅行のご案内" /></a>
-                    </div>
-                    <div class="tac mt30 mb30 pl10 pr20 onlySp">
-                        <a href="<?php bloginfo('template_directory'); ?>/assets/pdf/school_excursion_ver09.pdf" target="_blank"><img src="<?php bloginfo('template_directory'); ?>/assets/images/banner_3.png" alt="修学旅行のご案内" style="height: 77px;" /></a>
-                    </div>
-
+					
+                    
+                    <div class="tac mt30 mb30 pl20 pr20 onlyPc"> <a href="<?php bloginfo('template_directory'); ?>/assets/pdf/leaflet202012.pdf" target="_blank"><img src="<?php bloginfo('template_directory'); ?>/assets/images/banner_2.png" alt="新型コロナウイルス感染症への安全対策について"/></a>
+                    <a href="<?php bloginfo('template_directory'); ?>/assets/pdf/school_excursion_ver04.pdf" target="_blank" class="pl10"><img src="<?php bloginfo('template_directory'); ?>/assets/images/banner_3.png" alt="修学旅行のご案内"/></a>
+					</div>
+					<div class="tac mt30 mb20 pl20 pr20 onlySp"> <a href="<?php bloginfo('template_directory'); ?>/assets/pdf/leaflet202012.pdf" target="_blank"><img src="<?php bloginfo('template_directory'); ?>/assets/images/banner_2.png" alt="新型コロナウイルス感染症への安全対策について"/></a>
+                    <div class="tac mt30 mb30 pl10 pr20 onlySp"> <a href="<?php bloginfo('template_directory'); ?>/assets/pdf/school_excursion_ver04.pdf" target="_blank"><img src="<?php bloginfo('template_directory'); ?>/assets/images/banner_3.png" alt="修学旅行のご案内" style="height: 77px;"/></a>
+					</div>
+                    
                 </section>
-
-
+				
+				
 
                 <section class="content bg_gray">
                     <div class="ptb_sps inner_sb pb0">
@@ -325,7 +325,7 @@ Template Name: ご宿泊 - 修学旅行でのご利用について
                                     <p>姶良保健所</p>
                                     <p>
                                         霧島市隼人町松永3320-16<br>
-                                        <?php if (is_mobile()) : ?><a href="tel:0995-42-0480">TEL 0995-42-0480</a><?php else : ?>TEL 0995-42-0480<?php endif; ?>
+                                        <?php if (is_mobile()) : ?><a href="tel:0995-42-0480">TEL 0995-42-0480</a><?php else: ?>TEL 0995-42-0480<?php endif; ?>
                                     </p>
                                 </div>
                                 <div class="dl_tnses_c">
@@ -333,7 +333,7 @@ Template Name: ご宿泊 - 修学旅行でのご利用について
                                     <p>霧島警察署</p>
                                     <p>
                                         霧島市国分中央3丁目44-22<br>
-                                        <?php if (is_mobile()) : ?><a href="tel:0995-47-2110">TEL 0995-47-2110</a><?php else : ?>TEL 0995-47-2110<?php endif; ?>
+                                        <?php if (is_mobile()) : ?><a href="tel:0995-47-2110">TEL 0995-47-2110</a><?php else: ?>TEL 0995-47-2110<?php endif; ?>
                                     </p>
                                 </div>
                                 <div class="dl_tnses_c">
@@ -341,7 +341,7 @@ Template Name: ご宿泊 - 修学旅行でのご利用について
                                     <p>霧島市消防局</p>
                                     <p>
                                         霧島市国分中央3丁目41-5<br>
-                                        <?php if (is_mobile()) : ?><a href="tel:0995-64-0434">TEL 0995-64-0434</a><?php else : ?>TEL 0995-64-0434<?php endif; ?>
+                                        <?php if (is_mobile()) : ?><a href="tel:0995-64-0434">TEL 0995-64-0434</a><?php else: ?>TEL 0995-64-0434<?php endif; ?>
                                     </p>
                                 </div>
                                 <div class="dl_tnses_c">
@@ -349,7 +349,7 @@ Template Name: ご宿泊 - 修学旅行でのご利用について
                                     <p>国分生協病院</p>
                                     <p>
                                         霧島市国分中央3丁目38-14<br>
-                                        <?php if (is_mobile()) : ?><a href="tel:0995-45-4806">TEL 0995-45-4806</a><?php else : ?>TEL 0995-45-4806<?php endif; ?>
+                                        <?php if (is_mobile()) : ?><a href="tel:0995-45-4806">TEL 0995-45-4806</a><?php else: ?>TEL 0995-45-4806<?php endif; ?>
                                     </p>
                                 </div>
                             </article>
@@ -374,7 +374,7 @@ Template Name: ご宿泊 - 修学旅行でのご利用について
                         </article>
                     </div>
                 </section>
-
+                
                 <?php include(TEMPLATEPATH . '/inc/footer.php'); ?>
 
             </div>
@@ -396,9 +396,9 @@ Template Name: ご宿泊 - 修学旅行でのご利用について
 <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/assets/js/low.js"></script>
 <script>
     $(".a_md").modaal({
-        type: 'image',
-        width: "50%",
-        height: "50%"
+        type:'image',
+        width:"50%",
+        height:"50%"
     });
 </script>
 <?php get_footer(); ?>
