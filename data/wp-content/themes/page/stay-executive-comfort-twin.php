@@ -9,7 +9,7 @@ Template Name: ご宿泊 - エグゼクティブコンフォートツイン 本�
     <?php include(TEMPLATEPATH . '/inc/header.php'); ?>
 
     <main id="maincontainer" class="container"><!-- #maincontainer -->
-        
+
         <div class="main_bloc">
 
             <section id="lkv" data-image="<?php bloginfo('template_directory'); ?>/assets/images/stay/lkv_img_stay@2x.jpg"><!-- #kv -->
@@ -24,15 +24,15 @@ Template Name: ご宿泊 - エグゼクティブコンフォートツイン 本�
                 <?php include(TEMPLATEPATH . '/inc/reservation.php'); ?>
 
                 <article id="breadcrumb" class="ja-serif"><!-- #breadcrumb -->
-                  <div id="breadcrumb_inner" class="inner_m">
-                    <p>
-                        <a href="<?php bloginfo('url'); ?>/">ホーム</a>
-                        <span class="bcsps">&nbsp;&gt;&nbsp;</span>
-                        <a href="<?php bloginfo('url'); ?>/stay/">ご宿泊</a>
-                        <span class="bcsps">&nbsp;&gt;&nbsp;</span>
-                        <span>エグゼクティブコンフォートツイン</span>
-                    </p>
-                  </div>
+                    <div id="breadcrumb_inner" class="inner_m">
+                        <p>
+                            <a href="<?php bloginfo('url'); ?>/">ホーム</a>
+                            <span class="bcsps">&nbsp;&gt;&nbsp;</span>
+                            <a href="<?php bloginfo('url'); ?>/stay/">ご宿泊</a>
+                            <span class="bcsps">&nbsp;&gt;&nbsp;</span>
+                            <span>エグゼクティブコンフォートツイン</span>
+                        </p>
+                    </div>
                 </article><!-- /#breadcrumb -->
 
                 <section class="content">
@@ -49,10 +49,10 @@ Template Name: ご宿泊 - エグゼクティブコンフォートツイン 本�
                             </div>
                             <h2 class="read_ttl ja-min tac mb15 sp_sps smb20">上層階にあり、ご滞在中のゆとりの時間と空間をお約束いたします</h2>
                             <p class="tac sp_tal">
-								本館12階のエグゼクティブフロアに位置する2名様定員のツインルーム。<br>
-								エアウィーヴマットレス、デュベタイプの寝具で快適な寝心地とマイクロナノバブルシャワーヘッド、<br class="onlyPc">こだわりのヘアドライヤー（ヘアビューザー）を設置。<br>
-								他ツインと異なり中扉が御座いませんので、広々と快適なご滞在をお約束致します。<br>
-								禁煙ルームのみのお部屋タイプになります。
+                                本館12階のエグゼクティブフロアに位置する2名様定員のツインルーム。<br>
+                                エアウィーヴマットレス、デュベタイプの寝具で快適な寝心地とマイクロナノバブルシャワーヘッド、<br class="onlyPc">こだわりのヘアドライヤー（ヘアビューザー）を設置。<br>
+                                他ツインと異なり中扉が御座いませんので、広々と快適なご滞在をお約束致します。<br>
+                                禁煙ルームのみのお部屋タイプになります。
                             </p>
                         </div>
                     </div>
@@ -82,30 +82,30 @@ Template Name: ご宿泊 - エグゼクティブコンフォートツイン 本�
                             </dl>
                             <dl class="dl_tnses_b">
                                 <dt>料金</dt>
-                                <dd>2名様1室　33,850円～<br><span class="fs12">※表示価格は通常料金になり、税金・サービス料が含まれております。</span></dd>
+                                <dd>2名様1室　34,400円～<br><span class="fs12">※表示価格は通常料金になり、税金・サービス料が含まれております。</span></dd>
                             </dl>
                         </article>
-                        <?php include( TEMPLATEPATH . '/inc/stay_reservation.php' ); ?>
-                        <?php include( TEMPLATEPATH . '/inc/stay_tel.php' ); ?>
+                        <?php include(TEMPLATEPATH . '/inc/stay_reservation.php'); ?>
+                        <?php include(TEMPLATEPATH . '/inc/stay_tel.php'); ?>
                     </div>
-					<?php include( TEMPLATEPATH . '/inc/banner1.php' ); ?>
+                    <?php include(TEMPLATEPATH . '/inc/banner1.php'); ?>
                     <div class="ptb_sps pt32 pb70 spb30 inner_sb">
                         <h3 class="ja-min sttl">お部屋の様子</h3>
                         <article class="mdbtnset">
-							<?php include( TEMPLATEPATH . '/inc/stay_inner2.php' ); ?>
+                            <?php include(TEMPLATEPATH . '/inc/stay_inner2.php'); ?>
                         </article>
                     </div>
                 </section>
 
-                <?php include( TEMPLATEPATH . '/inc/stay_amenity1.php' ); ?>
+                <?php include(TEMPLATEPATH . '/inc/stay_amenity1.php'); ?>
 
                 <section class="content">
                     <div class="ptb_sps pt50 spt40 pb40 spb30 inner">
                         <h3 class="read_ttl ja-min tac">その他の部屋タイプもございます</h3>
                     </div>
-					<?php include(TEMPLATEPATH . '/inc/room_type.php'); ?>
+                    <?php include(TEMPLATEPATH . '/inc/room_type.php'); ?>
                 </section>
-                
+
                 <?php include(TEMPLATEPATH . '/inc/footer.php'); ?>
 
             </div>
@@ -127,9 +127,9 @@ Template Name: ご宿泊 - エグゼクティブコンフォートツイン 本�
 <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/assets/js/low.js"></script>
 <script>
     $(".a_md").modaal({
-        type:'image',
-        width:"50%",
-        height:"50%"
+        type: 'image',
+        width: "50%",
+        height: "50%"
     });
 </script>
 <?php get_footer(); ?>
