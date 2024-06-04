@@ -9,7 +9,7 @@ Template Name: アプリメンバーズ
     <?php include(TEMPLATEPATH . '/inc/header.php'); ?>
 
     <main id="maincontainer" class="container"><!-- #maincontainer -->
-        
+
         <div class="main_bloc">
 
             <section id="lkv" data-image="<?php bloginfo('template_directory'); ?>/assets/images/members/lkv_img_members@2x.jpg"><!-- #kv -->
@@ -22,13 +22,13 @@ Template Name: アプリメンバーズ
             <div id="mainsections" class="main_inner">
 
                 <article id="breadcrumb" class="ja-serif"><!-- #breadcrumb -->
-                <div id="breadcrumb_inner" class="inner_m">
-                    <p>
-                        <a href="<?php bloginfo('url'); ?>/">ホーム</a>
-                        <span class="bcsps">&nbsp;&gt;&nbsp;</span>
-                        <span>アプリメンバーズ</span>
-                    </p>
-                </div>
+                    <div id="breadcrumb_inner" class="inner_m">
+                        <p>
+                            <a href="<?php bloginfo('url'); ?>/">ホーム</a>
+                            <span class="bcsps">&nbsp;&gt;&nbsp;</span>
+                            <span>アプリメンバーズ</span>
+                        </p>
+                    </div>
                 </article><!-- /#breadcrumb -->
 
                 <section class="content inner_m">
@@ -41,12 +41,12 @@ Template Name: アプリメンバーズ
                             <figure class="mobile_iset_img smb20"><img src="<?php bloginfo('template_directory'); ?>/assets/images/members/img_sp-top.jpg" alt=""></figure>
                             <article class="mobile_iset_tbox">
                                 <h2 class="read_ttl tac ja-min">
-ご宿泊ごとにポイントが貯まる<br>
-お得なアプリメンバーズをご用意しております
+                                    ご宿泊ごとにポイントが貯まる<br>
+                                    お得なアプリメンバーズをご用意しております
                                 </h2>
                                 <p class="ja-min tac mb10">
-ホテル京セラの新着情報ツールとして<br class="onlySp">専用アプリが登場しました。<br>
-ご自分のスマホにインストールして、<br class="onlySp">いつでも新着情報をチェックできます。
+                                    ホテル京セラの新着情報ツールとして<br class="onlySp">専用アプリが登場しました。<br>
+                                    ご自分のスマホにインストールして、<br class="onlySp">いつでも新着情報をチェックできます。
                                 </p>
                                 <p class="mb10 tac">アプリのダウンロードはこちらから</p>
                                 <div class="app_dlset">
@@ -76,7 +76,7 @@ Template Name: アプリメンバーズ
                                     <div class="itd_item_tbox">
                                         <h2 class="read_ttl_l flex_left mb20 smb10"><span class="icon_ybox">特典1</span><span>ポイントを貯められます</span></h2>
                                         <p class="read_txt">
-											ホテル施設のご利用やご宿泊で、ポイントを貯められます。貯まったポイントは商品券や宿泊券と交換ができます。
+                                            ホテル施設のご利用やご宿泊で、ポイントを貯められます。貯まったポイントは商品券や宿泊券と交換ができます。
                                         </p>
                                     </div>
                                 </div>
@@ -87,7 +87,7 @@ Template Name: アプリメンバーズ
                                     <div class="itd_item_tbox">
                                         <h2 class="read_ttl_l flex_left mb20 smb10"><span class="icon_ybox">特典2</span><span>最新情報のお知らせ</span></h2>
                                         <p class="read_txt">
-											宿泊やレストランの最新情報をアプリで配信いたします。また、お得なクーポンもアプリ会員のみご利用いただけます。
+                                            宿泊やレストランの最新情報をアプリで配信いたします。また、お得なクーポンもアプリ会員のみご利用いただけます。
                                         </p>
                                     </div>
                                 </div>
@@ -95,7 +95,7 @@ Template Name: アプリメンバーズ
                         </div>
                     </article>
 
-					
+
                 </section>
                 <section class="content">
                     <article class="imgboxes ptb_sps pt80 spt40 pb30 spb20">
@@ -103,9 +103,9 @@ Template Name: アプリメンバーズ
                             <span class="mttls_en en">FLOW</span>
                             <span class="mttls_ja">アプリメンバーズへの入会の流れ</span>
                         </h2>
-							<p class="tac sp_tal mb40 smb30 sp_sps">アプリメンバーズで即日入会していただくことが可能です。</p>
+                        <p class="tac sp_tal mb40 smb30 sp_sps">アプリメンバーズで即日入会していただくことが可能です。</p>
                     </article>
-                </section>                
+                </section>
                 <section class="content bg_gray">
                     <article class="imgboxes ptb_sps pt40 spt40 pb30 spb20">
                         <article>
@@ -150,10 +150,10 @@ Template Name: アプリメンバーズ
                             </div>
                         </article>
                     </article>
-					
-                        <div class="btns pb40 smb0">
-                            <a href="<?php bloginfo('url'); ?>/members/form/" class="squarebtn_arrow_gd smb30 w454"><span>アプリに関するお問い合わせ</span></a>
-                        </div>
+
+                    <div class="btns pb40 smb0">
+                        <a href="<?php bloginfo('url'); ?>/members/form/" class="squarebtn_arrow_gd smb30 w454"><span>アプリに関するお問い合わせ</span></a>
+                    </div>
                 </section>
 
                 <section class="content sp_sps">
@@ -163,8 +163,8 @@ Template Name: アプリメンバーズ
                             <span class="mttls_ja">ポイントプログラム</span>
                         </h2>
                         <p class="read_txt tac sp_tal mb40 smb20">
-ホテル施設のご利用やご宿泊など、様々な場所でポイントが貯まるサービスです。<br>
-500円（税別）ごとに1ポイントをお付けし、貯まったポイントに応じて豪華特典と交換することができます。
+                            ホテル施設のご利用やご宿泊など、様々な場所でポイントが貯まるサービスです。<br>
+                            500円（税別）ごとに1ポイントをお付けし、貯まったポイントに応じて豪華特典と交換することができます。
                         </p>
                         <article>
                             <h3 class="sttl ja-min mb15">ポイントの貯め方</h3>
@@ -174,10 +174,10 @@ Template Name: アプリメンバーズ
                                         <figure class="flow_img"><img src="<?php bloginfo('template_directory'); ?>/assets/images/members/img_point01.jpg" alt=""></figure>
                                         <div class="flow_item_tbox">
                                             <h2 class="flow_ttl tac">
-1.「ポイント会員」のアイコンをタップ
+                                                1.「ポイント会員」のアイコンをタップ
                                             </h2>
                                             <p class="flow_txt">
-アプリを起動し、右上の「ポイント会員」のアイコンをタップします。
+                                                アプリを起動し、右上の「ポイント会員」のアイコンをタップします。
                                             </p>
                                         </div>
                                     </div>
@@ -187,10 +187,10 @@ Template Name: アプリメンバーズ
                                         <figure class="flow_img"><img src="<?php bloginfo('template_directory'); ?>/assets/images/members/img_point02.jpg" alt=""></figure>
                                         <div class="flow_item_tbox">
                                             <h2 class="flow_ttl tac">
-2.QRコードを提示
+                                                2.QRコードを提示
                                             </h2>
                                             <p class="flow_txt">
-表示されたQRコードをレジに提示してください。現在のポイント数や有効期限もチェックできます。
+                                                表示されたQRコードをレジに提示してください。現在のポイント数や有効期限もチェックできます。
                                             </p>
                                         </div>
                                     </div>
@@ -200,10 +200,10 @@ Template Name: アプリメンバーズ
                                         <figure class="flow_img"><img src="<?php bloginfo('template_directory'); ?>/assets/images/members/img_point03.jpg" alt=""></figure>
                                         <div class="flow_item_tbox">
                                             <h2 class="flow_ttl tac">
-3.ポイントゲット
+                                                3.ポイントゲット
                                             </h2>
                                             <p class="flow_txt">
-500円（税別）ごとに1ポイントが加算されます。
+                                                500円（税別）ごとに1ポイントが加算されます。
                                             </p>
                                         </div>
                                     </div>
@@ -219,8 +219,13 @@ Template Name: アプリメンバーズ
                             <h3 class="sttl ja-min mb10">ポイント付与対象</h3>
                             <div class="tnses_container">
                                 <p class="tnses_single">・デルソーレ、京はるか、夢の国、アモーレの各レストラン、バーのご利用</p>
-                                <p class="tnses_single">・宿泊でのご利用</p>
+                                <p class="tnses_single">・宿泊でのご利用<br>
+                                    → ポイント加算は、ホテルに直接ご予約頂いた場合のみ対象とさせて頂きます。（公式HP または、お電話でのご予約）<br>
+                                    ※旅行代理店及び旅行WEB サイト経由でのご予約は対象外となります。
+                                </p>
                                 <p class="tnses_single">・弊社がポイントの対象と定めた企画商品のご利用<span>※弊社が定めた固定ポイントを加算いたします。</span></p>
+                                <p class="tnses_single">※公式HP からご予約され、事前カード決済でお支払いの場合は、チェックインの際にポイントを加算致します。恐れ入りますがフロントスタッフにお声掛けください。<br>
+                                    事後のお申し出によるポイント加算は致し兼ねますのでご留意ください。</p>
                             </div>
                         </article>
                         <article class="flex_w58">
@@ -256,7 +261,7 @@ Template Name: アプリメンバーズ
                         </article>
                     </div>
                 </section>
-                
+
                 <?php include(TEMPLATEPATH . '/inc/footer.php'); ?>
 
             </div>
