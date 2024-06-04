@@ -10,9 +10,10 @@
 			<section id="kv"><!-- #kv -->
 				<div id="yp_container">
 					<div id="yp_background"></div>
-					<div id="yp_overlay"></div>
+					<!-- <div id="yp_overlay"></div> -->
 				</div>
 				<h1 id="kv_logo"><img src="<?php bloginfo('template_directory'); ?>/assets/images/kv_logo.png" alt=""></h1>
+				<p class="btn_fullversion"><a href="https://youtu.be/pJmavDkASOs" target="_blank" rel="noopener noreferrer">音声付き動画はこちら</a></p>
 			</section><!-- /#kv -->
 
 			<div id="mainsections" class="main_inner">

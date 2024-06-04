@@ -5397,14 +5397,38 @@ footer #ft_snsbtns a:hover {
 }
 
 #kv #kv_logo img {
-  width: 391px;
+  /* width: 391px; */
+  width: 350px;
   transition: ease-out 0.2s;
 }
 
 @media screen and (max-width: 767px) {
   #kv #kv_logo img {
     width: 100%;
-    max-width: 220px;
+    /* max-width: 220px; */
+    max-width: 200px;
+  }
+}
+
+#kv .btn_fullversion {
+  position: absolute;
+  bottom: 5.5em;
+  left: 1em;
+}
+#kv .btn_fullversion a {
+  display: inline-block;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 0.5em 2em;
+  border-radius: 25px;
+}
+#kv .btn_fullversion a:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+@media screen and (max-width: 767px) {
+  #kv .btn_fullversion {
+    bottom: 1em;
+    left: 0.5em;
   }
 }
 
