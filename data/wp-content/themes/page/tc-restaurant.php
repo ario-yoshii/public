@@ -117,7 +117,7 @@ Template Name: 繁體中文 - 餐廳酒吧
                                             <dl class="openhours">
                                                 <dt>OPEN</dt>
                                                 <dd>
-                                                    19:00～23:00 (last order 22:30)
+                                                    20:00～24:00 (last order 23:30)
                                                 </dd>
                                             </dl>
                                             <dl class="openhours openhours_en">

@@ -4,18 +4,15 @@ Template Name: アクセス＆フロアガイド
 */
 ?>
 <?php get_header(); ?>
-<div id="wrapper">
-    <!-- #wrapper -->
+<div id="wrapper"><!-- #wrapper -->
 
     <?php include(TEMPLATEPATH . '/inc/header.php'); ?>
 
-    <main id="maincontainer" class="container">
-        <!-- #maincontainer -->
-
+    <main id="maincontainer" class="container"><!-- #maincontainer -->
+        
         <div class="main_bloc">
 
-            <section id="lkv" data-image="<?php bloginfo('template_directory'); ?>/assets/images/access/lkv_img_access.jpg">
-                <!-- #kv -->
+            <section id="lkv" data-image="<?php bloginfo('template_directory'); ?>/assets/images/access/lkv_img_access.jpg"><!-- #kv -->
                 <h1 class="lkv_bttls">
                     <span class="mttls_en en">LOCATION</span>
                     <span class="mttls_ja">ロケーション</span>
@@ -24,15 +21,14 @@ Template Name: アクセス＆フロアガイド
 
             <div id="mainsections" class="main_inner">
 
-                <article id="breadcrumb" class="ja-serif">
-                    <!-- #breadcrumb -->
-                    <div id="breadcrumb_inner" class="inner_m">
-                        <p>
-                            <a href="<?php bloginfo('url'); ?>/">Home</a>
-                            <span class="bcsps">&nbsp;&gt;&nbsp;</span>
-                            <span>アクセス＆フロアガイド</span>
-                        </p>
-                    </div>
+                <article id="breadcrumb" class="ja-serif"><!-- #breadcrumb -->
+                  <div id="breadcrumb_inner" class="inner_m">
+                    <p>
+                        <a href="<?php bloginfo('url'); ?>/">Home</a>
+                        <span class="bcsps">&nbsp;&gt;&nbsp;</span>
+                        <span>アクセス＆フロアガイド</span>
+                    </p>
+                  </div>
                 </article><!-- /#breadcrumb -->
 
                 <section class="content bd_btm">
@@ -64,8 +60,8 @@ Template Name: アクセス＆フロアガイド
                                         <div class="tac">
                                             <h2 class="read_ttl_l ja-min mb20 smb15">一般道 (国道) をご利用の場合</h2>
                                             <p class="read_txt">
-                                                鹿児島市内方面より国道10号線を隼人方面まで直進してください。<br>
-                                                国道10号線を直進されて隼人に入りましたら、交差点「国道223入口」にて国道223号線へ左折して下さい。そのまま国道223号線を直進していただきますと、約５分（2.5ｋｍ）で右手にホテル京セラが見えてまいります。
+鹿児島市内方面より国道10号線を隼人方面まで直進してください。<br>
+国道10号線を直進されて隼人に入りましたら、交差点「国道223入口」にて国道223号線へ左折して下さい。そのまま国道223号線を直進していただきますと、約５分（2.5ｋｍ）で右手にホテル京セラが見えてまいります。
                                             </p>
                                         </div>
                                     </div>
@@ -76,19 +72,19 @@ Template Name: アクセス＆フロアガイド
                                         <div class="tac">
                                             <h2 class="read_ttl_l ja-min mb20 smb15">高速道路をご利用の場合</h2>
                                             <p class="read_txt">
-                                                九州自動車道「加治木IC」より隼人道路に接続します。<br>
-                                                隼人東インターチェンジを降りて右折すると交差点「国道223入口」に出ます。そのまま国道223号線を直進していただきますと、約５分（2.5km）でホテル京セラが見えてまいります。
+九州自動車道「加治木IC」より隼人道路に接続します。<br>
+隼人東インターチェンジを降りて右折すると交差点「国道223入口」に出ます。そのまま国道223号線を直進していただきますと、約５分（2.5km）でホテル京セラが見えてまいります。
                                             </p>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="itd_item_m">
                                     <div class="itd_item_inner">
-                                        <figure class="mb15 smb20"><img src="<?php bloginfo('template_directory'); ?>/assets/images/access/230808_img_access_kagoshima03.jpg" alt=""></figure>
+                                        <figure class="mb15 smb20"><img src="<?php bloginfo('template_directory'); ?>/assets/images/access/img_access_kagoshima03.jpg" alt=""></figure>
                                         <div class="tac">
                                             <h2 class="read_ttl_l ja-min mb20 smb15">JRをご利用の場合</h2>
                                             <p class="read_txt">
-                                                JR九州の日豊本線『隼人駅』で下車してください。隼人駅からは徒歩で15分程度、タクシーではワンメーター程の距離になります。タクシーは常駐しておりませんため、ご予約をおすすめいたします。
+JR九州の日豊本線「隼人駅」で下車してください。隼人駅からタクシーでワンメーターでホテル京セラへ到着いたします。
                                             </p>
                                         </div>
                                     </div>
@@ -109,7 +105,7 @@ Template Name: アクセス＆フロアガイド
                                         <div class="tac">
                                             <h2 class="read_ttl_l ja-min mb20 smb15">一般道 (国道) をご利用の場合</h2>
                                             <p class="read_txt">
-                                                鹿児島空港方面より国道504号線を霧島市街地方面へお進み下さい。約5.4km直進の後、西光寺交差点を右折。国道223号線に入ります。国道223号を直進されますと約5分で左側にホテル京セラが見えてまいります。
+鹿児島空港方面より国道504号線を霧島市街地方面へお進み下さい。約5.4km直進の後、西光寺交差点を右折。国道223号線に入ります。国道223号を直進されますと約5分で左側にホテル京セラが見えてまいります。
                                             </p>
                                         </div>
                                     </div>
@@ -120,7 +116,7 @@ Template Name: アクセス＆フロアガイド
                                         <div class="tac">
                                             <h2 class="read_ttl_l ja-min mb20 smb15">高速道路をご利用の場合</h2>
                                             <p class="read_txt">
-                                                九州自動車道「溝辺鹿児島空港IC」を降りて国道504号線を霧島市街地方面へ右折してください。約5.4km直進の後、西光寺交差点を右折。国道223号線に入ります。国道223号を直進されますと約５分で左側にホテル京セラが見えてまいります。
+九州自動車道「溝辺鹿児島空港IC」を降りて国道504号線を霧島市街地方面へ右折してください。約5.4km直進の後、西光寺交差点を右折。国道223号線に入ります。国道223号を直進されますと約５分で左側にホテル京セラが見えてまいります。
                                             </p>
                                         </div>
                                     </div>
@@ -131,17 +127,15 @@ Template Name: アクセス＆フロアガイド
                                         <div class="tac">
                                             <h2 class="read_ttl_l ja-min mb20 smb15">空港リムジンバスをご利用の場合</h2>
                                             <p class="read_txt">
-                                                鹿児島空港バス乗り場 (10番) 発着<br>
-                                                大人460円 / 子供230円（2022年10月11日現在）<br>
-
-                                                <a href="https://www.h-kyocera.co.jp/data/wp-content/uploads/airportbus_20240401.pdf" target="_blank" class="btn1">バス時刻表</a>
-
-                                                <span class="d_block mt5 fs13 lh20">
-                                                    ※【鹿屋⇔空港】と表示のあるバスにご乗車くださいませ。<br>
-                                                    ※一部ホテル前に停車しない便がありますので乗車前にご確認くださいませ。<br>
-                                                    ※ホテル京セラ → 鹿児島空港は乗車専用となります。<br>
-                                                    ※鹿児島空港 → ホテル京セラは下車専用となります。 バスの運行状況などのお問合せは、鹿児島交通 鹿屋営業所 (0994-65-2258) まで。
-                                                </span>
+鹿児島空港バス乗り場 (10番) 発着<br>
+大人410円 / 子供210円（令和元年10月1日現在）<br>
+												<a href="https://www.h-kyocera.co.jp/data/wp-content/uploads/89d687a174290fa5f9e239f94a942ce5.pdf" target="_blank" class="btn1">バス時刻表</a>
+<span class="d_block mt5 fs13 lh20">
+※【鹿屋⇔空港】と表示のあるバスにご乗車くださいませ。<br>
+※一部ホテル前に停車しない便がありますので乗車前にご確認くださいませ。<br>
+※ホテル京セラ → 鹿児島空港は乗車専用となります。<br>
+※鹿児島空港 → ホテル京セラは下車専用となります。 バスの運行状況などのお問合せは、鹿児島交通 鹿屋営業所 (0994-65-2258) まで。
+</span>
                                             </p>
                                         </div>
                                     </div>
@@ -166,52 +160,52 @@ Template Name: アクセス＆フロアガイド
                                         <dl class="tnses">
                                             <dt>TOPF（13F）</dt>
                                             <dd>
-                                                メインバー「アモーレ」　/　TOPバンケットルーム「サザンクロス」<br class="onlyPc">
-                                                パーティールーム「シャンテ」　/　パーティールーム「アミューズ」<br class="onlyPc">
-                                                バンケットルーム「ブーケ」　/　バンケットルーム「オアシス」
+メインバー「アモーレ」　/　TOPバンケットルーム「サザンクロス」<br class="onlyPc">
+パーティールーム「シャンテ」　/　パーティールーム「アミューズ」<br class="onlyPc">
+バンケットルーム「ブーケ」　/　バンケットルーム「オアシス」
                                             </dd>
                                         </dl>
                                         <dl class="tnses">
                                             <dt>4〜12F</dt>
                                             <dd class="flex_left">
                                                 <p class="fw_a fw_bold">客室</p>
-                                                <p>シングルルーム　/　ダブルルーム　/　ツインルーム<br class="onlyPc">
-                                                    デラックスツインルーム　/　和洋室　/　スイートルーム</p>
+<p>シングルルーム　/　ダブルルーム　/　ツインルーム<br class="onlyPc">
+デラックスツインルーム　/　和洋室　/　スイートルーム</p>
                                             </dd>
                                         </dl>
                                         <dl class="tnses">
                                             <dt>3F</dt>
                                             <dd>
-                                                チャペル「セントグラシアチャーチ」　/　日本料理「京はるか」<br class="onlyPc">
-                                                アイ・スポット　/　喫煙コーナー
+チャペル「セントグラシアチャーチ」　/　日本料理「京はるか」<br class="onlyPc">
+アイ・スポット　/　喫煙コーナー
                                             </dd>
                                         </dl>
                                         <dl class="tnses">
                                             <dt>2F</dt>
                                             <dd>
-                                                神前式場　/　写場　/　衣裳室　/　ドレッシングルーム　/　バンケットルーム「清流」<br class="onlyPc">
-                                                バンケットルーム「浮雲」　/　バンケットルーム「陽光」<br class="onlyPc">
-                                                男性更衣室「山水」　/　女性更衣室「風月」　/　ブライダルサロン
+神前式場　/　写場　/　衣裳室　/　ドレッシングルーム　/　バンケットルーム「清流」<br class="onlyPc">
+バンケットルーム「浮雲」　/　バンケットルーム「陽光」<br class="onlyPc">
+男性更衣室「山水」　/　女性更衣室「風月」　/　ブライダルサロン
                                             </dd>
                                         </dl>
                                         <dl class="tnses">
                                             <dt>1F</dt>
                                             <dd>
-                                                フロント　/　ロビー　/　エントランス　/　洋食レストラン「デルソーレ」<br class="onlyPc">
-                                                フラワーショップ　/　ジュエリーショップ　/　売店　/　喫煙コーナー　/　授乳室
+フロント　/　ロビー　/　エントランス　/　洋食レストラン「デルソーレ」<br class="onlyPc">
+フラワーショップ　/　ジュエリーショップ　/　売店　/　喫煙コーナー　/　授乳室
                                             </dd>
                                         </dl>
                                         <dl class="tnses">
                                             <dt>B1F</dt>
                                             <dd>
-                                                オクシア（温泉大浴場・トレーニングジム・プール）<br class="onlyPc">
-                                                マッサージルーム　/　喫煙コーナー
+オクシア（温泉大浴場・トレーニングジム・プール）<br class="onlyPc">
+マッサージルーム　/　喫煙コーナー
                                             </dd>
                                         </dl>
                                         <dl class="tnses">
                                             <dt>B2F</dt>
                                             <dd>
-                                                大宴会場「天雅」　/　授乳室　/　喫煙コーナー
+大宴会場「天雅」　/　授乳室　/　喫煙コーナー
                                             </dd>
                                         </dl>
                                     </div>
@@ -224,31 +218,31 @@ Template Name: アクセス＆フロアガイド
                                             <dt>4〜8F</dt>
                                             <dd class="flex_left">
                                                 <p class="fw_a fw_bold">客室</p>
-                                                シングルルーム　/　ツインルーム　/　和室</p>
+    シングルルーム　/　ツインルーム　/　和室</p>
                                             </dd>
                                         </dl>
                                         <dl class="tnses">
                                             <dt>3F</dt>
                                             <dd>
-                                                上野原縄文の森コーナー <span class="fw_bold ml20">客室</span> シングルルーム　/　ツインルーム
+    上野原縄文の森コーナー <span class="fw_bold ml20">客室</span> シングルルーム　/　ツインルーム
                                             </dd>
                                         </dl>
                                         <dl class="tnses">
                                             <dt>2F</dt>
                                             <dd>
-                                                バンケットルーム「桜」　/　バンケットルーム「フラワー」
+    バンケットルーム「桜」　/　バンケットルーム「フラワー」
                                             </dd>
                                         </dl>
                                         <dl class="tnses">
                                             <dt>1F</dt>
                                             <dd>
-                                                ロビー・エントランス　/　バイキングレストラン「夢の国」　/　喫煙コーナー
+    ロビー・エントランス　/　バイキングレストラン「夢の国」　/　喫煙コーナー
                                             </dd>
                                         </dl>
                                         <dl class="tnses">
                                             <dt>B1F</dt>
                                             <dd>
-                                                アミューズメントスパ「エデン」
+    アミューズメントスパ「エデン」
                                             </dd>
                                         </dl>
                                     </div>
@@ -269,7 +263,7 @@ Template Name: アクセス＆フロアガイド
                             <div class="imgbox_typeC">
                                 <div class="itd_item">
                                     <div class="itd_item_inner">
-                                        <figure class="mb15"><img src="<?php bloginfo('template_directory'); ?>/assets/images/access/img_entrance.jpg" alt="" /></figure>
+                                        <figure class="mb15"><img src="<?php bloginfo('template_directory'); ?>/assets/images/access/img_entrance.jpg" alt=""/></figure>
                                         <div class="itd_item_tbox">
                                             <h2 class="read_ttl ja-min">エントランス</h2>
                                             <p class="read_txt"></p>
@@ -280,7 +274,7 @@ Template Name: アクセス＆フロアガイド
                                 </div>
                                 <div class="itd_item">
                                     <div class="itd_item_inner">
-                                        <figure class="mb15"><img src="<?php bloginfo('template_directory'); ?>/assets/images/access/img_concierge.jpg" alt="" /></figure>
+                                        <figure class="mb15"><img src="<?php bloginfo('template_directory'); ?>/assets/images/access/img_concierge.jpg" alt=""/></figure>
                                         <div class="itd_item_tbox">
                                             <h2 class="read_ttl ja-min">コンシェルジュ</h2>
                                             <p class="read_txt"></p>
@@ -291,7 +285,7 @@ Template Name: アクセス＆フロアガイド
                                 </div>
                                 <div class="itd_item">
                                     <div class="itd_item_inner">
-                                        <figure class="mb15"><img src="<?php bloginfo('template_directory'); ?>/assets/images/access/img_lobby.jpg" alt="" /></figure>
+                                        <figure class="mb15"><img src="<?php bloginfo('template_directory'); ?>/assets/images/access/img_lobby.jpg" alt=""/></figure>
                                         <div class="itd_item_tbox">
                                             <h2 class="read_ttl ja-min">ロビー</h2>
                                             <p class="read_txt"></p>
@@ -302,55 +296,55 @@ Template Name: アクセス＆フロアガイド
                                 </div>
                                 <div class="itd_item">
                                     <div class="itd_item_inner">
-                                        <figure class="mb15"><img src="<?php bloginfo('template_directory'); ?>/assets/images/access/img_breastfeeding.jpg" alt="" /></figure>
+                                        <figure class="mb15"><img src="<?php bloginfo('template_directory'); ?>/assets/images/access/img_breastfeeding.jpg" alt=""/></figure>
                                         <div class="itd_item_tbox">
                                             <h2 class="read_ttl ja-min">授乳室</h2>
                                             <p class="read_txt"></p>
                                         </div>
-                                        <!-- <p class="txtbtn_s">詳しく見る</p>-->
+                                       <!-- <p class="txtbtn_s">詳しく見る</p>-->
                                     </div>
-                                    <!-- <a href="#" class="hitarea"></a>-->
+                                   <!-- <a href="#" class="hitarea"></a>-->
                                 </div>
                                 <div class="itd_item">
                                     <div class="itd_item_inner">
-                                        <figure class="mb15"><img src="<?php bloginfo('template_directory'); ?>/assets/images/access/img_toilet.jpg" alt="" /></figure>
+                                        <figure class="mb15"><img src="<?php bloginfo('template_directory'); ?>/assets/images/access/img_toilet.jpg" alt=""/></figure>
                                         <div class="itd_item_tbox">
                                             <h2 class="read_ttl ja-min">みんなのトイレ</h2>
                                             <p class="read_txt"></p>
                                         </div>
-                                        <!-- <p class="txtbtn_s">詳しく見る</p>-->
+                                       <!-- <p class="txtbtn_s">詳しく見る</p>-->
                                     </div>
-                                    <!-- <a href="#" class="hitarea"></a>-->
+                                   <!-- <a href="#" class="hitarea"></a>-->
                                 </div>
                                 <div class="itd_item">
                                     <div class="itd_item_inner">
-                                        <figure class="mb15"><img src="<?php bloginfo('template_directory'); ?>/assets/images/access/img_shop01.jpg" alt="" /></figure>
+                                        <figure class="mb15"><img src="<?php bloginfo('template_directory'); ?>/assets/images/access/img_shop01.jpg" alt=""/></figure>
                                         <div class="itd_item_tbox">
                                             <h2 class="read_ttl ja-min">売店</h2>
                                             <p class="read_txt"></p>
                                         </div>
-                                        <p class="txtbtn_s">詳しく見る</p>
+                                       <p class="txtbtn_s">詳しく見る</p>
                                     </div>
-                                    <a href="<?php bloginfo('url'); ?>/shop/" class="hitarea"></a>
+                                   <a href="<?php bloginfo('url'); ?>/shop/" class="hitarea"></a>
                                 </div>
                                 <div class="itd_item">
                                     <div class="itd_item_inner">
-                                        <figure class="mb15"><img src="<?php bloginfo('template_directory'); ?>/assets/images/access/img_museum.jpg" alt="" /></figure>
+                                        <figure class="mb15"><img src="<?php bloginfo('template_directory'); ?>/assets/images/access/img_museum.jpg" alt=""/></figure>
                                         <div class="itd_item_tbox">
                                             <h2 class="read_ttl ja-min">縄文遺跡ミュージアム</h2>
                                             <p class="read_txt"></p>
                                         </div>
-                                        <!--<p class="txtbtn_s">詳しく見る</p>-->
+                                       <!--<p class="txtbtn_s">詳しく見る</p>-->
                                     </div>
-                                    <!--<a href="#" class="hitarea"></a>-->
+                                   <!--<a href="#" class="hitarea"></a>-->
                                 </div>
                             </div>
                         </article>
                     </div>
                 </section>
-
-
-                <!--               <section class="content spb40">
+		
+		
+ <!--               <section class="content spb40">
                     <div class="ptb_sps pt70 spt50 pb100 spb0 inner_sb">
                         <h2 class="mttls tac mb70 smb20">
                             <span class="mttls_en en">FACILITIES</span>

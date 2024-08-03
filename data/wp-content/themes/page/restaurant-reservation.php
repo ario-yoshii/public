@@ -92,16 +92,16 @@ Template Name: レストラン＆バー - 予約
 var option_id = '<?= get_query_var('option_id') ?>';
   switch(option_id){
     case '1':
-    document.querySelector('option[value="洋食レストラン デルソーレ"]').setAttribute('selected', 'true');
+    document.querySelector('option[value="洋食レストラン　デルソーレ"]').setAttribute('selected', 'true');
     break;
     case '2':
-    document.querySelector('option[value="日本料理 京はるか"]').setAttribute('selected', 'true');
+    document.querySelector('option[value="日本料理　京はるか"]').setAttribute('selected', 'true');
     break;
     case '3':
-    document.querySelector('option[value="バー アモーレ"]').setAttribute('selected', 'true');
+    document.querySelector('option[value="バー　アモーレ"]').setAttribute('selected', 'true');
     break;
     case '4':
-    document.querySelector('option[value="バイキングレストラン 夢の国"]').setAttribute('selected', 'true');
+    document.querySelector('option[value="バイキングレストラン　夢の国"]').setAttribute('selected', 'true');
     break;
     default:
     document.querySelector('option[value="選択してください"]').setAttribute('selected', 'true');
