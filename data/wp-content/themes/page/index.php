@@ -158,8 +158,8 @@
 										<div class="info_tbox">
 											<div class="postbox">
 												<p class="post_date en"><?php the_time('Y/m/d'); ?></p>
-												<span class="post_line">|</span>
-												<p class="post_tags"><span><?php the_category(', '); ?></span></p>
+												<!-- <span class="post_line">|</span>
+												<p class="post_tags"><span><?php the_category(', '); ?></span></p> -->
 											</div>
 											<h3 class="info_ttl"><?php the_title(); ?></h3>
 										</div>
@@ -190,8 +190,8 @@
 										<div class="info_tbox">
 											<div class="postbox">
 												<p class="post_date en"><?php the_time('Y/m/d'); ?></p>
-												<span class="post_line">|</span>
-												<p class="post_tags"><span><?php the_category(', '); ?></span></p>
+												<!-- <span class="post_line">|</span>
+												<p class="post_tags"><span><?php the_category(', '); ?></span></p> -->
 											</div>
 											<h3 class="info_ttl"><?php the_title(); ?></h3>
 										</div>
@@ -221,8 +221,8 @@
 										<div class="info_tbox">
 											<div class="postbox">
 												<p class="post_date en"><?php the_time('Y/m/d'); ?></p>
-												<span class="post_line">|</span>
-												<p class="post_tags"><span><?php the_category(', '); ?></span></p>
+												<!-- <span class="post_line">|</span>
+												<p class="post_tags"><span><?php the_category(', '); ?></span></p> -->
 											</div>
 											<h3 class="info_ttl"><?php the_title(); ?></h3>
 										</div>
@@ -252,8 +252,8 @@
 										<div class="info_tbox">
 											<div class="postbox">
 												<p class="post_date en"><?php the_time('Y/m/d'); ?></p>
-												<span class="post_line">|</span>
-												<p class="post_tags"><span><?php the_category(', '); ?></span></p>
+												<!-- <span class="post_line">|</span>
+												<p class="post_tags"><span><?php the_category(', '); ?></span></p> -->
 											</div>
 											<h3 class="info_ttl"><?php the_title(); ?></h3>
 										</div>
@@ -283,8 +283,8 @@
 										<div class="info_tbox">
 											<div class="postbox">
 												<p class="post_date en"><?php the_time('Y/m/d'); ?></p>
-												<span class="post_line">|</span>
-												<p class="post_tags"><span><?php the_category(', '); ?></span></p>
+												<!-- <span class="post_line">|</span>
+												<p class="post_tags"><span><?php the_category(', '); ?></span></p> -->
 											</div>
 											<h3 class="info_ttl"><?php the_title(); ?></h3>
 										</div>
@@ -314,8 +314,8 @@
 										<div class="info_tbox">
 											<div class="postbox">
 												<p class="post_date en"><?php the_time('Y/m/d'); ?></p>
-												<span class="post_line">|</span>
-												<p class="post_tags"><span><?php the_category(', '); ?></span></p>
+												<!-- <span class="post_line">|</span>
+												<p class="post_tags"><span><?php the_category(', '); ?></span></p> -->
 											</div>
 											<h3 class="info_ttl"><?php the_title(); ?></h3>
 										</div>
@@ -345,8 +345,8 @@
 										<div class="info_tbox">
 											<div class="postbox">
 												<p class="post_date en"><?php the_time('Y/m/d'); ?></p>
-												<span class="post_line">|</span>
-												<p class="post_tags"><span><?php the_category(', '); ?></span></p>
+												<!-- <span class="post_line">|</span>
+												<p class="post_tags"><span><?php the_category(', '); ?></span></p> -->
 											</div>
 											<h3 class="info_ttl"><?php the_title(); ?></h3>
 										</div>

@@ -151,19 +151,11 @@ Template Name: レストラン＆バー - バイキングレストラン 夢の�
 										</tr>
 										<tr>
 											<th class="sub">ディナータイム</th>
-											<?php if (date_i18n("Ymd") <= "20230331") : ?>
-												<td>3,080円</td>
-												<td>2,970円</td>
-												<td>1,760円</td>
-												<td>990円</td>
-												<td>440円</td>
-											<?php else : ?>
-												<td>3,400円</td>
-												<td>3,200円</td>
-												<td>1,870円</td>
-												<td>1,100円</td>
-												<td>550円</td>
-											<?php endif; ?>
+											<td>3,400円</td>
+											<td>3,200円</td>
+											<td>1,870円</td>
+											<td>1,100円</td>
+											<td>550円</td>
 										</tr>
 									</tbody>
 								</table>
@@ -243,8 +235,8 @@ Template Name: レストラン＆バー - バイキングレストラン 夢の�
 											<div class="info_tbox">
 												<div class="postbox">
 													<p class="post_date en"><?php the_time('Y/m/d'); ?></p>
-													<span class="post_line">|</span>
-													<p class="post_tags"><span><?php the_category(', '); ?></span></p>
+													<!-- <span class="post_line">|</span>
+													<p class="post_tags"><span><?php the_category(', '); ?></span></p> -->
 												</div>
 												<h3 class="info_ttl"><?php the_title(); ?></h3>
 											</div>

@@ -9,7 +9,7 @@ Template Name: ご宿泊
     <?php include(TEMPLATEPATH . '/inc/header.php'); ?>
 
     <main id="maincontainer" class="container"><!-- #maincontainer -->
-        
+
         <div class="main_bloc">
 
             <section id="lkv" data-image="<?php bloginfo('template_directory'); ?>/assets/images/stay/lkv_img_stay@2x.jpg"><!-- #kv -->
@@ -24,13 +24,13 @@ Template Name: ご宿泊
                 <?php include(TEMPLATEPATH . '/inc/reservation.php'); ?>
 
                 <article id="breadcrumb" class="ja-serif"><!-- #breadcrumb -->
-                  <div id="breadcrumb_inner" class="inner_m">
-                    <p>
-                        <a href="<?php bloginfo('url'); ?>/">ホーム</a>
-                        <span class="bcsps">&nbsp;&gt;&nbsp;</span>
-                        <span>ご宿泊</span>
-                    </p>
-                  </div>
+                    <div id="breadcrumb_inner" class="inner_m">
+                        <p>
+                            <a href="<?php bloginfo('url'); ?>/">ホーム</a>
+                            <span class="bcsps">&nbsp;&gt;&nbsp;</span>
+                            <span>ご宿泊</span>
+                        </p>
+                    </div>
                 </article><!-- /#breadcrumb -->
 
                 <section class="content">
@@ -45,35 +45,37 @@ Template Name: ご宿泊
                             <a href="#" class="roundbtn btnbg_w" data-target="cat_category02"><span>カテゴリー2</span></a>
                         </nav>-->
                         <article class="info_container mb30" data-maxview=6>
-							<?php
-							$arg = array(
-							'posts_per_page' => 6, // 表示する件数
-							'orderby' => 'date', // 日付でソート
-							'order' => 'DESC', // DESCで最新から表示、ASCで最古から表示
-							'category_name' => 'stay_plan' // 表示したいカテゴリーのスラッグを指定
-							);
-							$posts = get_posts( $arg );
-							if( $posts ): ?>
-							<?php foreach ( $posts as $post ) : setup_postdata( $post ); ?>							
-							
-								<div class="info_item cat_new">
-									<?php if(has_post_thumbnail()): ?>
-										<?php $thumbnail_id = get_post_thumbnail_id(); $eye_img = wp_get_attachment_image_src( $thumbnail_id , 'large' ); ?>	
-										<figure class="info_item_img"><span data-image="<?php echo $eye_img[0];?>"></span></figure>
-									<?php endif; ?>
-									<div class="info_tbox">
-										<div class="postbox">
-											<p class="post_date en"><?php the_time( 'Y/m/d' ); ?></p>
-											<span class="post_line">|</span>
-											<p class="post_tags"><span><?php the_category(', '); ?></span></p>
-										</div>
-										<h3 class="info_ttl"><?php the_title(); ?></h3>
-									</div>
-									<?php if( get_field('pdf') ) : ?><a href="<?php the_field('pdf'); ?>" class="hitarea" target="_blank"><?php else: ?><a href="<?php the_permalink(); ?>" class="hitarea"><?php endif; ?></a>
-								</div>
-							<?php endforeach; ?>
-							<?php endif; wp_reset_postdata(); ?>							
-							
+                            <?php
+                            $arg = array(
+                                'posts_per_page' => 6, // 表示する件数
+                                'orderby' => 'date', // 日付でソート
+                                'order' => 'DESC', // DESCで最新から表示、ASCで最古から表示
+                                'category_name' => 'stay_plan' // 表示したいカテゴリーのスラッグを指定
+                            );
+                            $posts = get_posts($arg);
+                            if ($posts) : ?>
+                                <?php foreach ($posts as $post) : setup_postdata($post); ?>
+
+                                    <div class="info_item cat_new">
+                                        <?php if (has_post_thumbnail()) : ?>
+                                            <?php $thumbnail_id = get_post_thumbnail_id();
+                                            $eye_img = wp_get_attachment_image_src($thumbnail_id, 'large'); ?>
+                                            <figure class="info_item_img"><span data-image="<?php echo $eye_img[0]; ?>"></span></figure>
+                                        <?php endif; ?>
+                                        <div class="info_tbox">
+                                            <div class="postbox">
+                                                <p class="post_date en"><?php the_time('Y/m/d'); ?></p>
+                                                <!-- <span class="post_line">|</span>
+											<p class="post_tags"><span><?php the_category(', '); ?></span></p> -->
+                                            </div>
+                                            <h3 class="info_ttl"><?php the_title(); ?></h3>
+                                        </div>
+                                        <?php if (get_field('pdf')) : ?><a href="<?php the_field('pdf'); ?>" class="hitarea" target="_blank"><?php else : ?><a href="<?php the_permalink(); ?>" class="hitarea"><?php endif; ?></a>
+                                    </div>
+                                <?php endforeach; ?>
+                            <?php endif;
+                            wp_reset_postdata(); ?>
+
                         </article>
                         <a href="<?php bloginfo('url'); ?>/stay/plan/" class="txtbtn mauto smt15"><span>その他の宿泊プラン一覧</span></a>
                     </div>
@@ -246,7 +248,7 @@ Template Name: ご宿泊
                         </h2>
                         <h3 class="read_ttl ja-min tac mb0">より快適でゆとりあるご滞在のために、<br class="onlySp">各種サービスをご用意しております</h3>
                     </div>
-                    
+
                     <section id="sc_room_points_cl" class="content">
                         <div class="room_points_cl_container">
                             <div class="room_points_cl">
@@ -269,35 +271,35 @@ Template Name: ご宿泊
                                         <p class="room_points_cl_txt">モノクロは１枚３０円、カラーコピーは１枚１００円でお受け致しております。 </p>
                                     </div>
                                 </article>
-                            <article class="room_points_cl_item icon_gym">
-                                <div class="room_points_cl_item_inner">
-                                    <h4 class="room_points_cl_ttl ja-min">プール＆<br class="onlySp">スポーツジム</h4>
-                                    <p class="room_points_cl_txt">本館地下１階「オクシア」にフィットネスジムと屋内プールがございます。</p>
-                                </div>
-                                <a href="<?php bloginfo('url'); ?>/relaxation/oxya/" class="txtbtn_s">詳しく見る</a>
-                            </article>
-                            <article class="room_points_cl_item icon_landry">
-                                <div class="room_points_cl_item_inner">
-                                    <h4 class="room_points_cl_ttl ja-min sp_pd">コインランドリー</h4>
-                                    <p class="room_points_cl_txt">
-                                        別館Ｂ１Ｆにコインランドリーが御座います。<br>
-                                        ※洗剤はご自由にご利用ください。<br>
-                                        <span class="fs12">営業時間10:00～22:00 洗濯￥500/乾燥8分￥100</span>
-                                    </p>
-                                </div>
-                            </article>
-                            <article class="room_points_cl_item icon_shopping">
-                                <div class="room_points_cl_item_inner">
-                                    <h4 class="room_points_cl_ttl ja-min">本館１階に<br class="onlySp">売店がございます</h4>
-                                    <p class="room_points_cl_txt">お土産品やコンビニ商品、その他お菓子やドリンク類、アルコールも取り扱っております。  </p>
-                                </div>
-                                <a href="<?php bloginfo('url'); ?>/shop/" class="txtbtn_s">詳しく見る</a>
-                            </article>
+                                <article class="room_points_cl_item icon_gym">
+                                    <div class="room_points_cl_item_inner">
+                                        <h4 class="room_points_cl_ttl ja-min">プール＆<br class="onlySp">スポーツジム</h4>
+                                        <p class="room_points_cl_txt">本館地下１階「オクシア」にフィットネスジムと屋内プールがございます。</p>
+                                    </div>
+                                    <a href="<?php bloginfo('url'); ?>/relaxation/oxya/" class="txtbtn_s">詳しく見る</a>
+                                </article>
+                                <article class="room_points_cl_item icon_landry">
+                                    <div class="room_points_cl_item_inner">
+                                        <h4 class="room_points_cl_ttl ja-min sp_pd">コインランドリー</h4>
+                                        <p class="room_points_cl_txt">
+                                            別館Ｂ１Ｆにコインランドリーが御座います。<br>
+                                            ※洗剤はご自由にご利用ください。<br>
+                                            <span class="fs12">営業時間10:00～22:00 洗濯￥500/乾燥8分￥100</span>
+                                        </p>
+                                    </div>
+                                </article>
+                                <article class="room_points_cl_item icon_shopping">
+                                    <div class="room_points_cl_item_inner">
+                                        <h4 class="room_points_cl_ttl ja-min">本館１階に<br class="onlySp">売店がございます</h4>
+                                        <p class="room_points_cl_txt">お土産品やコンビニ商品、その他お菓子やドリンク類、アルコールも取り扱っております。 </p>
+                                    </div>
+                                    <a href="<?php bloginfo('url'); ?>/shop/" class="txtbtn_s">詳しく見る</a>
+                                </article>
                             </div>
                         </div>
                         <a href="<?php bloginfo('url'); ?>/stay/service/" class="morebtn en"><span>More</span></a>
                     </section>
-					<?php include( TEMPLATEPATH . '/inc/banner1.php' ); ?>
+                    <?php include(TEMPLATEPATH . '/inc/banner1.php'); ?>
                     <div class="ptb_sps pt80 spt60 inner">
 
                         <div class="imgbox_typeC">
@@ -310,7 +312,7 @@ Template Name: ご宿泊
                                             <span class="mttls_ja">各種サービス</span>
                                         </h2>
                                         <p class="read_txt mb20">
-											客室内のサービスや館内サービスをご案内いたします。
+                                            客室内のサービスや館内サービスをご案内いたします。
                                         </p>
                                     </div>
                                 </div>
@@ -325,7 +327,7 @@ Template Name: ご宿泊
                                             <span class="mttls_ja">修学旅行について</span>
                                         </h2>
                                         <p class="read_txt mb20">
-											ホテル京セラでは全国の修学旅行生の宿泊先として受け入れをいたしております。
+                                            ホテル京セラでは全国の修学旅行生の宿泊先として受け入れをいたしております。
                                         </p>
                                     </div>
                                 </div>
@@ -334,8 +336,8 @@ Template Name: ご宿泊
                         </div>
                     </div>
                 </section>
-					
-                
+
+
                 <?php include(TEMPLATEPATH . '/inc/footer.php'); ?>
 
             </div>

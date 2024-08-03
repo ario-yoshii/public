@@ -9,7 +9,7 @@ Template Name: 温泉・スパ・プール・ジム
     <?php include(TEMPLATEPATH . '/inc/header.php'); ?>
 
     <main id="maincontainer" class="container"><!-- #maincontainer -->
-        
+
         <div class="main_bloc">
 
             <section id="lkv" data-image="<?php bloginfo('template_directory'); ?>/assets/images/relaxation/lkv_img_relaxation@2x.jpg"><!-- #kv -->
@@ -22,25 +22,25 @@ Template Name: 温泉・スパ・プール・ジム
             <div id="mainsections" class="main_inner">
 
                 <article id="breadcrumb" class="ja-serif"><!-- #breadcrumb -->
-                <div id="breadcrumb_inner" class="inner_m">
-                    <p>
-                        <a href="<?php bloginfo('url'); ?>/">ホーム</a>
-                        <span class="bcsps">&nbsp;&gt;&nbsp;</span>
-                        <span>温泉・スパ・プール・ジム</span>
-                    </p>
-                </div>
+                    <div id="breadcrumb_inner" class="inner_m">
+                        <p>
+                            <a href="<?php bloginfo('url'); ?>/">ホーム</a>
+                            <span class="bcsps">&nbsp;&gt;&nbsp;</span>
+                            <span>温泉・スパ・プール・ジム</span>
+                        </p>
+                    </div>
                 </article><!-- /#breadcrumb -->
 
                 <section class="content inner_m">
                     <div class="ptb_sps pt30 pb90 spb40 inner_sl sp_inner_b">
                         <h2 class="read_ttl ja-min tac mb10 smb20">
-ホテル直下1,050mの源泉を持つ温泉大浴場と、<br>
-身も心もほぐす極上のリラクゼーションで癒やされる。
+                            ホテル直下1,050mの源泉を持つ温泉大浴場と、<br>
+                            身も心もほぐす極上のリラクゼーションで癒やされる。
                         </h2>
                         <p class="tac sp_tal">
-ホテル直下1,050mの源泉を持つ温泉大浴場と室内温水プールにスポーツジムまで完備したリラクゼーション空間と、<br class="onlyPc">
-身も心もほぐす極上の癒やしを提供するリラクゼーションサロンを完備。<br>
-日々の疲れを優しくほぐし、心地よい安らぎと癒やしで包みます。
+                            ホテル直下1,050mの源泉を持つ温泉大浴場と室内温水プールにスポーツジムまで完備したリラクゼーション空間と、<br class="onlyPc">
+                            身も心もほぐす極上の癒やしを提供するリラクゼーションサロンを完備。<br>
+                            日々の疲れを優しくほぐし、心地よい安らぎと癒やしで包みます。
                         </p>
                     </div>
                 </section>
@@ -62,8 +62,8 @@ Template Name: 温泉・スパ・プール・ジム
                                             <span class="mttls_ja">スポーツ＆リラクゼーション空間 オクシア</span>
                                         </h2>
                                         <p class="read_txt">
-ホテル直下1,050mの源泉を持つ温泉大浴場と室内温水プールにスポーツジムまで完備したリラクゼーション空間。<br>
-陽光が差し込む明るい雰囲気とホテルならではのゆったりとした贅沢な時間で心も身体もリフレッシュ！
+                                            ホテル直下1,050mの源泉を持つ温泉大浴場と室内温水プールにスポーツジムまで完備したリラクゼーション空間。<br>
+                                            陽光が差し込む明るい雰囲気とホテルならではのゆったりとした贅沢な時間で心も身体もリフレッシュ！
                                         </p>
                                     </div>
                                 </div>
@@ -78,7 +78,7 @@ Template Name: 温泉・スパ・プール・ジム
                                             <span class="mttls_ja">リラクゼーションサロン オクシア</span>
                                         </h2>
                                         <p class="read_txt">
-身も心もほぐす極上の癒やしを提供いたします。エステティックメニューからリラクゼーションメニューまで、女性のお客様はもちろん、男性のお客様も全てのメニューをご利用いただけます。
+                                            身も心もほぐす極上の癒やしを提供いたします。エステティックメニューからリラクゼーションメニューまで、女性のお客様はもちろん、男性のお客様も全てのメニューをご利用いただけます。
                                         </p>
                                     </div>
                                 </div>
@@ -94,40 +94,43 @@ Template Name: 温泉・スパ・プール・ジム
                             <span class="mttls_ja">インフォメーション</span>
                         </h2>
                         <article class="info_container mb30" data-maxview=6>
- 							<?php
-							$arg = array(
-							'posts_per_page' => 6, // 表示する件数
-							'orderby' => 'date', // 日付でソート
-							'order' => 'DESC', // DESCで最新から表示、ASCで最古から表示
-							'category_name' => 'relaxation_info' // 表示したいカテゴリーのスラッグを指定
-							);
-							$posts = get_posts( $arg );
-							if( $posts ): ?>
-							<?php foreach ( $posts as $post ) : setup_postdata( $post ); ?>
-								<?php $cats = get_the_category();?>    
-                       	    	<div class="info_item cat_new  cat_<?php foreach($cats as $cat):  if($cat->parent) echo $cat->category_nicename; endforeach; ?>">
-									<?php if(has_post_thumbnail()): ?>
-										<?php $thumbnail_id = get_post_thumbnail_id(); $eye_img = wp_get_attachment_image_src( $thumbnail_id , 'large' ); ?>	
-										<figure class="info_item_img"><span data-image="<?php echo $eye_img[0];?>"></span></figure>
-									<?php endif; ?>
-									<div class="info_tbox">
-										<div class="postbox">
-											<p class="post_date en"><?php the_time( 'Y/m/d' ); ?></p>
-											<span class="post_line">|</span>
-											<p class="post_tags"><span><?php the_category(', '); ?></span></p>
-										</div>
-										<h3 class="info_ttl"><?php the_title(); ?></h3>
-									</div>
-									<?php if( get_field('pdf') ) : ?><a href="<?php the_field('pdf'); ?>" class="hitarea" target="_blank"><?php elseif( get_field('URL') ) : ?><a href="<?php the_field('URL'); ?>" class="hitarea"><?php else: ?><a href="<?php the_permalink(); ?>" class="hitarea"><?php endif; ?></a>
-								</div>
-							<?php endforeach; ?>
-							<?php endif; wp_reset_postdata(); ?>
-							
+                            <?php
+                            $arg = array(
+                                'posts_per_page' => 6, // 表示する件数
+                                'orderby' => 'date', // 日付でソート
+                                'order' => 'DESC', // DESCで最新から表示、ASCで最古から表示
+                                'category_name' => 'relaxation_info' // 表示したいカテゴリーのスラッグを指定
+                            );
+                            $posts = get_posts($arg);
+                            if ($posts) : ?>
+                                <?php foreach ($posts as $post) : setup_postdata($post); ?>
+                                    <?php $cats = get_the_category(); ?>
+                                    <div class="info_item cat_new  cat_<?php foreach ($cats as $cat) :  if ($cat->parent) echo $cat->category_nicename;
+                                                                        endforeach; ?>">
+                                        <?php if (has_post_thumbnail()) : ?>
+                                            <?php $thumbnail_id = get_post_thumbnail_id();
+                                            $eye_img = wp_get_attachment_image_src($thumbnail_id, 'large'); ?>
+                                            <figure class="info_item_img"><span data-image="<?php echo $eye_img[0]; ?>"></span></figure>
+                                        <?php endif; ?>
+                                        <div class="info_tbox">
+                                            <div class="postbox">
+                                                <p class="post_date en"><?php the_time('Y/m/d'); ?></p>
+                                                <!-- <span class="post_line">|</span>
+											<p class="post_tags"><span><?php the_category(', '); ?></span></p> -->
+                                            </div>
+                                            <h3 class="info_ttl"><?php the_title(); ?></h3>
+                                        </div>
+                                        <?php if (get_field('pdf')) : ?><a href="<?php the_field('pdf'); ?>" class="hitarea" target="_blank"><?php elseif (get_field('URL')) : ?><a href="<?php the_field('URL'); ?>" class="hitarea"><?php else : ?><a href="<?php the_permalink(); ?>" class="hitarea"><?php endif; ?></a>
+                                    </div>
+                                <?php endforeach; ?>
+                            <?php endif;
+                            wp_reset_postdata(); ?>
+
                         </article>
                         <a href="<?php bloginfo('url'); ?>/relaxation_info/" class="txtbtn mauto smt15"><span>リラクゼーション情報一覧</span></a>
                     </div>
-                </section>				
-				
+                </section>
+
                 <!--<section class="content">
                     <div class="ptb_sps pt40 pb40 spb20 inner">
                         <h3 class="read_ttl ja-min tac fw_bold">サービス一覧</h3>
@@ -156,7 +159,7 @@ Template Name: 温泉・スパ・プール・ジム
                     </article>
                 </section>-->
 
-                
+
                 <?php include(TEMPLATEPATH . '/inc/footer.php'); ?>
 
             </div>
