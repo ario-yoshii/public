@@ -80,7 +80,7 @@ Template Name: 簡体中文 - 休闲
 											从别馆地下一层延伸至屋外的広阔而開放的伊甸園，为您提供古罗馬式水疗、草薬作用水疗、岩間温泉、大型気泡浴、芬兰浴等丰富多彩的休閑享受，均可着泳装入内。
                                         </p>
                                         <p class="mb10">
-											* Eden open for a limited period (Summer vacation, and Golden Week)
+											* Eden 园限期开放（暑假）
                                         </p>
                                         <p>
 											* 伊甸園为您准备了可供租借的泳装，当然您也可以自带。

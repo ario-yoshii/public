@@ -83,7 +83,7 @@ OXYA is located in the main building, and has a Japanese spa (hot spring), indoo
 Eden spreads from Annex B1F out into the open air. This spa allows you to relax in the comfort of your swim wear. Take advantage of our various facilities including an ancient Roman bath, medicinal rock bath, jacuzzi, sauna and more.
                                         </p>
                                         <p class="mb10">
-* Eden open for a limited period (Summer vacation, and Golden Week)
+* Eden open for a limited period (Summer vacation)
                                         </p>
                                         <p>
 * Rental swimwear is available. You can also use your own swimwear.

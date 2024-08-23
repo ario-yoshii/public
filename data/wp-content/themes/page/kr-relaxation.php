@@ -83,7 +83,7 @@ Template Name: 韓国語 - RELAXATION
 											이국적인 정취를 느낄 수 있는 고대 로마풍 스파와 약초 암반탕, 대형 자쿠지, 사우나 등이 완비된 에덴에서 색다른 휴식을 만끽할 수 있습니다.
                                         </p>
                                         <p class="mb10">
-											* Eden open for a limited period (Summer vacation, and Golden Week)
+											* 에덴 기간한정 오픈(여름방학)
                                         </p>
                                         <p>
 											* 에덴은 수영복 대여시설이 갖추어져 있습니다. 물론 수영복 지참도 가능합니다.

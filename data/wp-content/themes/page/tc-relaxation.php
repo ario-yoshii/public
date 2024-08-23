@@ -82,7 +82,7 @@ Template Name: 繁體中文 - 釋放壓力
 											在“EDEN“可穿著泳裝，盡情享受多樣的泡湯活動 別館的地下一樓到室外寬敞的開放空間中，有古羅馬風的泉池、藥草的岩盤風呂、大型按摩浴缸、三溫暖等多樣的設施，滿足您泡湯的樂趣。
                                         </p>
                                         <p class="mb10">
-											* Eden open for a limited period (Summer vacation, and Golden Week)
+											* Eden 限期開放（暑假）
                                         </p>
                                         <p>
 											* 泳裝可自帶亦可當場租借。
