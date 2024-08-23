@@ -58,7 +58,7 @@ You can enjoy various sightseeing spots.
                         <article id="gray_points_item01" class="gray_points_item">
                             <div class="gray_points_item_inner">
                                 <h4 class="gray_points_ttl en">From Kagoshima Airport to<br>Hotel Kyocera</h4>
-                                <p class="mb10">From the Kagoshima Airport bus terminal No.10, take a bus to the hotel (410yen for adults).</p>
+                                <p class="mb10">From the Kagoshima Airport bus terminal No.10, take a bus to the hotel (460yen for adults).</p>
                                 <p>*For more information about bus operations, please contact<br>Kagoshima Kotsu. (Tel: 81-994-65-2258)</p>
                             </div>
                         </article>

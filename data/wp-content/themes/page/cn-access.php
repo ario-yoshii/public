@@ -57,7 +57,7 @@ Template Name: 簡体中文 - 访问
                         <article id="gray_points_item01" class="gray_points_item">
                             <div class="gray_points_item_inner">
                                 <h4 class="gray_points_ttl en">鹿儿岛机场搭乘前来京瓷酒店</h4>
-                                <p class="mb10">在鹿儿岛机场巴士站10号站牌搭车，（成人：¥410）</p>
+                                <p class="mb10">在鹿儿岛机场巴士站10号站牌搭车，（成人：¥460）</p>
                                 <p>*有关巴士资讯请联系Kagoshima Kotsu（电话：81-994-65-2258)</p>
                             </div>
                         </article>
