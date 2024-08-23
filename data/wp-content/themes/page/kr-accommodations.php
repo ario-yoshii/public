@@ -59,7 +59,7 @@ Template Name: 韓国語 - ACCOMMODATIONS
                             <article id="room_points_item02" class="room_points_item">
                                 <div class="room_points_item_inner">
                                     <h4 class="room_points_ttl en">인터넷</h4>
-                                    <p>유/무선 인터넷 연결 서비스 제공, 전 객실 VOD시스템 완비</p>
+                                    <p>유/무선 인터넷 연결 서비스 제공</p>
                                 </div>
                             </article>
                             <article id="room_points_item03" class="room_points_item">

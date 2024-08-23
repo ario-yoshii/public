@@ -58,7 +58,7 @@ Template Name: 簡体中文 - 住宿
                             <article id="room_points_item02" class="room_points_item">
                                 <div class="room_points_item_inner">
                                     <h4 class="room_points_ttl en">互联网</h4>
-                                    <p>所有客房均配备了有线网络和无线局域网所有客房都配备了视频点播系统</p>
+                                    <p>所有客房均配备有线网络和无线网络</p>
                                 </div>
                             </article>
                             <article id="room_points_item03" class="room_points_item">

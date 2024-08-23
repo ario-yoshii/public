@@ -59,7 +59,7 @@ Template Name: 繁體中文 - 客房介紹
                             <article id="room_points_item02" class="room_points_item">
                                 <div class="room_points_item_inner">
                                     <h4 class="room_points_ttl en">上網服務</h4>
-                                    <p>客房wifi環境、LAN網路線、VOD隨選視訊系統</p>
+                                    <p>客房wifi環境、LAN網路線</p>
                                 </div>
                             </article>
                             <article id="room_points_item03" class="room_points_item">

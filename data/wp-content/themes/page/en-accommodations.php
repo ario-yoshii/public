@@ -60,8 +60,7 @@ Gentle white and ivory interior design and refined décor provide a true resort 
                             <article id="room_points_item02" class="room_points_item">
                                 <div class="room_points_item_inner">
                                     <h4 class="room_points_ttl en">Internet access</h4>
-                                    <p>Complimentary in-room wired and wirelass internet serbice is available.<br>
-									Video-on-Demand service is also available at 1,000yen.</p>
+                                    <p>Complimentary in-room wired and wirelass internet serbice is available.</p>
                                 </div>
                             </article>
                             <article id="room_points_item03" class="room_points_item">

@@ -58,8 +58,8 @@ Template Name: ご宿泊 - 各種サービス
                                     <div class="itd_item_inner">
                                         <figure class="mb15"><img src="<?php bloginfo('template_directory'); ?>/assets/images/stay/service/img_internet.jpg" alt=""></figure>
                                         <div class="itd_item_tbox">
-                                            <h2 class="read_ttl ja-min">全客室インターネット対応・VODシステム完備</h2>
-                                            <p class="read_txt">全室有線LAN回線及びWi-Fi LAN回線無料接続可能。LANケーブルの設置もございます。また、VODシステムも完備いたしております。</p>
+                                            <h2 class="read_ttl ja-min">全客室インターネット対応</h2>
+                                            <p class="read_txt">全室有線LAN回線及びWi-Fi LAN回線無料接続可能。LANケーブルの設置もございます。</p>
                                         </div>
                                         <!--<p class="txtbtn_s">詳しく見る</p>-->
                                     </div>
@@ -190,7 +190,6 @@ Template Name: ご宿泊 - 各種サービス
                                 <li>テレビ</li>
                                 <li>電話</li>
                                 <li>湯沸かしポット</li>
-                                <li>VODシステム</li>
                                 <li>加湿空気清浄機</li>
                                 <li>インターネット接続(LAN形式)</li>
                                 <li>インターネット接続(無線LAN形式)</li>
@@ -207,7 +206,6 @@ Template Name: ご宿泊 - 各種サービス
                             <h3 class="ja-min sttl mb15">その他貸出備品</h3>
                             <ul class="fl_tlist">
                                 <li>アイロン</li>
-                                <li>CDプレイヤー</li>
                                 <li>DVDプレイヤー</li>
                                 <li>電気スタンド</li>
                                 <li>携帯用充電器</li>
