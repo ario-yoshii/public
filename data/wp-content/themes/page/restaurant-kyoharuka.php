@@ -206,7 +206,13 @@ Template Name: レストラン＆バー - 京はるか
                                         </dl>
                                         <dl class="dl_tnses_m">
                                             <dt>定休日</dt>
-                                            <dd>毎週月曜日、火曜日</dd>
+                                            <dd>
+                                            <?php if ( date_i18n("Ymd") <= "20240901" ): /*2024年9月1日まで表示*/?>
+												毎週月曜日、火曜日
+											<?php else: ?>
+												毎週火曜日
+											<?php endif; ?>
+                                            </dd>
                                         </dl>
                                         <dl class="dl_tnses_m">
                                             <dt>TEL</dt>
