@@ -17,6 +17,7 @@
                 <a href="<?php bloginfo('url'); ?>/company/" class="txtbtn_normal"><span>会社概要</span></a>
                 <a href="<?php bloginfo('url'); ?>/recruit/" class="txtbtn_normal"><span>採用情報</span></a>
                 <a href="<?php bloginfo('url'); ?>/privacypolicy/" class="txtbtn_normal sp_mauto"><span>プライバシーポリシー</span></a>
+                <a href="<?php bloginfo('url'); ?>/customer-harassment/" class="txtbtn_normal sp_mauto"><span>カスタマーハラスメントに関する行動方針</span></a>
             </nav>
             <nav id="ft_snsbtns" class="btns mb40 smb30">
                 <a href="https://twitter.com/Hotel_Kyocera" class="a_sns icon_sns_twitter" target="_blank"></a>
