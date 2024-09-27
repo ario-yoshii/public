@@ -166,9 +166,15 @@ Template Name: 温泉・スパ・プール・ジム - オクシア
                                         </tr>
                                         <tr>
                                             <th>外来の<br class="onlySp">お客様</th>
-                                            <td>1,200円</td>
-                                            <td>600円</td>
-                                            <td>300円</td>
+                                            <?php if (date_i18n("Ymd") <= "20240930"): /*2024年9月30日まで表示*/ ?>
+                                                <td>1,200円</td>
+                                                <td>600円</td>
+                                                <td>300円</td>
+                                            <?php else: ?>
+                                                <td>1,600円</td>
+                                                <td>800円</td>
+                                                <td>400円</td>
+                                            <?php endif; ?>
                                             <td>無料</td>
                                         </tr>
                                         <tr>

@@ -10,7 +10,7 @@ Template Name: 温泉・スパ・プール・ジム - リラクゼーション�
     <?php include(TEMPLATEPATH . '/inc/header.php'); ?>
 
     <main id="maincontainer" class="container"><!-- #maincontainer -->
-        
+
         <div class="main_bloc">
 
             <section id="lkv" data-image="<?php bloginfo('template_directory'); ?>/assets/images/relaxation/lkv_img_relaxation@2x.jpg"><!-- #kv -->
@@ -23,15 +23,15 @@ Template Name: 温泉・スパ・プール・ジム - リラクゼーション�
             <div id="mainsections" class="main_inner">
 
                 <article id="breadcrumb" class="ja-serif"><!-- #breadcrumb -->
-                <div id="breadcrumb_inner" class="inner_m">
-                    <p>
-                        <a href="<?php bloginfo('url'); ?>/">ホーム</a>
-                        <span class="bcsps">&nbsp;&gt;&nbsp;</span>
-                        <a href="<?php bloginfo('url'); ?>/relaxation/">温泉・スパ・プール・ジム</a>
-                        <span class="bcsps">&nbsp;&gt;&nbsp;</span>
-                        <span>リラクゼーションサロン オクシア</span>
-                    </p>
-                </div>
+                    <div id="breadcrumb_inner" class="inner_m">
+                        <p>
+                            <a href="<?php bloginfo('url'); ?>/">ホーム</a>
+                            <span class="bcsps">&nbsp;&gt;&nbsp;</span>
+                            <a href="<?php bloginfo('url'); ?>/relaxation/">温泉・スパ・プール・ジム</a>
+                            <span class="bcsps">&nbsp;&gt;&nbsp;</span>
+                            <span>リラクゼーションサロン オクシア</span>
+                        </p>
+                    </div>
                 </article><!-- /#breadcrumb -->
 
                 <section class="content inner_m">
@@ -55,9 +55,15 @@ Template Name: 温泉・スパ・プール・ジム - リラクゼーション�
                                     <dl class="ts_flex_container">
                                         <dt class="tl_m fw_bold">営業時間</dt>
                                         <dd class="">
-											<span class="fw_bold">16:00～23:00（最終受付 22:00）</span><br>
-                                            <span class="fw_bold fs14 sfs13">※毎週日曜日は定休日です。</span><br>
-											<span class="fs13 sfs12">上記以外については改定する場合がございますのでご予約時にご確認下さい</span>
+                                            <?php if (date_i18n("Ymd") <= "20240930"): /*2024年9月30日まで表示*/ ?>
+                                                <span class="fw_bold">16:00～23:00（最終受付 22:00）</span><br>
+                                                <span class="fw_bold fs14 sfs13">※毎週日曜日は定休日です。</span><br>
+                                            <?php else: ?>
+                                                <span class="fw_bold">【火曜・水曜・木曜】18:00 〜 23:00<br>
+                                                    【 金曜・土曜 】16:00 〜 23:00</span><br>
+                                                <span class="fw_bold fs14 sfs13">※定休:日曜日、月曜日</span><br>
+                                            <?php endif; ?>
+                                            <span class="fs13 sfs12">上記以外については改定する場合がございますのでご予約時にご確認下さい</span>
                                         </dd>
                                     </dl>
                                     <dl class="ts_flex_container">
@@ -185,13 +191,13 @@ Template Name: 温泉・スパ・プール・ジム - リラクゼーション�
                                 </ul>
 
                                 <p class="fs14">※表記料金はサービス料税込です。<br>
-								※料金については改定する場合がございますのでご予約時にご確認下さい。</p>
+                                    ※料金については改定する場合がございますのでご予約時にご確認下さい。</p>
                             </div>
                             <figure class="tnsimg"><img src="<?php bloginfo('template_directory'); ?>/assets/images/relaxation/salon/img_salon_s02.jpg" alt=""></figure>
                         </article>
                     </div>
                 </section>
-<!--
+                <!--
                 <section class="content">
                     <div class="ptb_sps pt40 pb40 spb20 inner">
                         <h3 class="read_ttl ja-min tac fw_bold">サービス一覧</h3>
@@ -220,7 +226,7 @@ Template Name: 温泉・スパ・プール・ジム - リラクゼーション�
                     </article>
                 </section>
 -->
-                
+
                 <?php include(TEMPLATEPATH . '/inc/footer.php'); ?>
 
             </div>
