@@ -58,74 +58,7 @@ Template Name: ショップ
                     </div>
                 </section>
 
-                <section class="content bg_gray ">
-                    <article class="imgboxes pt60 pb70 spb50">
-                        <h2 class="mttls tac mb60 smb30">
-                            <span class="mttls_en en">ORIGINAL</span>
-                            <span class="mttls_ja">オリジナル商品</span>
-                        </h2>
-                        <div class="imgbox_typeC">
-                            <div class="itd_item">
-                                <div class="itd_item_inner">
-                                    <figure class="mb15"><img src="<?php bloginfo('template_directory'); ?>/assets/images/shop/img_curry.jpg" alt="" /></figure>
-                                    <div class="itd_item_tbox">
-                                        <h2 class="read_ttl">黒毛和牛黒カレー</h2>
-                                        <p class="read_txt mb30">
-                                            大自然の中で育てられた黒毛和牛を使用し、シェフが選び抜いたスパイスを贅沢に使ったこだわりの特選カレーです。<br>
-                                            肉の旨味がギュッと詰まった高級感のあるカレーが食欲をそそります。ぜひ、素材のもつ美味しさをご堪能下さい。
-                                        </p>
-                                        <div class="tb_border">
-                                            <div class="ts_flex_container fs14 sfs13">
-                                                <p class="ts_flex_ttl">1人前（184g）</p>
-                                                <p class="ts_flex_txt">750円（税込）</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="itd_item">
-                                <div class="itd_item_inner">
-                                    <figure class="mb15"><img src="<?php bloginfo('template_directory'); ?>/assets/images/shop/img_goods02.jpg" alt="" /></figure>
-                                    <div class="itd_item_tbox">
-                                        <h2 class="read_ttl">ホテルオリジナル芋焼酎　縄文のいぶき</h2>
-                                        <p class="read_txt mb30">
-                                            本格芋焼酎「縄文のいぶき」は、霧島の清冽な湧水と厳選された素材から生まれたスッキリとした味わいの焼酎です。<br>
-                                            ホテル内にある「縄文遺跡ミュージアム」の誕生を記念して造られたオリジナル焼酎でまさに「縄文の息吹」に触れるような豊かな味わいで悠久の時をお楽しみ下さい。
-                                        </p>
-                                        <div class="tb_border">
-                                            <div class="ts_flex_container fs14 sfs13">
-                                                <p class="ts_flex_ttl fw_auto pr0">720ml瓶&nbsp;&nbsp;<br class="onlySp">1,600円（税込）&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="sp_hide">/</span></dt>
-                                                <p class="ts_flex_txt pl0">300ml瓶&nbsp;&nbsp;<br class="onlySp">650円（税込）</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="itd_item">
-                                <div class="itd_item_inner">
-                                    <figure class="mb15"><img src="<?php bloginfo('template_directory'); ?>/assets/images/shop/img_goods03.jpg" alt="" /></figure>
-                                    <div class="itd_item_tbox">
-                                        <h2 class="read_ttl">プリンセスドレッシング</h2>
-                                        <p class="read_txt mb30">
-                                            野菜そのものの風味を引き立てる、さっぱりとした味わいのドレッシングです。<br>
-                                            酸味を抑えたマイルドなドレッシングで、目を見張るようなピンク色は、赤ワインと紫芋によるもので添加物ではありません。
-                                        </p>
-                                        <div class="tb_border">
-                                            <div class="ts_flex_container fs14 sfs13">
-                                                <p class="ts_flex_ttl">1本（200ml）</p>
-                                                <p class="ts_flex_txt">648円（税込）</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </article>
-                </section>
-
-                <section class="content">
+                <section class="content bg_gray">
                     <div class="ptb_sps pt45 pb45 spb30 bd_btm inner_m sp_inner_b">
                         <h2 class="mttls tac mb18 smb12">
                             <span class="mttls_en en">INFORMATION</span>
@@ -169,7 +102,7 @@ Template Name: ショップ
                     </div>
                 </section>
 
-                <section class="content">
+                <section class="content bg_gray">
                     <div class="ptb_sps inner">
                         <h2 class="mttls tac mb58 smb30">
                             <span class="mttls_en en">INFORMATION</span>
@@ -204,6 +137,76 @@ Template Name: ショップ
                         </article>
                     </div>
                 </section>
+
+
+                <section class="content">
+                    <article class="imgboxes pt60 pb70 spb50">
+                        <h2 class="mttls tac mb60 smb30">
+                            <span class="mttls_en en">ORIGINAL</span>
+                            <span class="mttls_ja">オリジナル商品</span>
+                        </h2>
+                        <div class="imgbox_typeC">
+                            <div class="itd_item">
+                                <div class="itd_item_inner">
+                                    <figure class="mb15"><img src="<?php bloginfo('template_directory'); ?>/assets/images/shop/img_curry.jpg" alt="" /></figure>
+                                    <div class="itd_item_tbox">
+                                        <h2 class="read_ttl">黒毛和牛黒カレー</h2>
+                                        <p class="read_txt mb30">
+                                            大自然の中で育てられた黒毛和牛を使用し、シェフが選び抜いたスパイスを贅沢に使ったこだわりの特選カレーです。<br>
+                                            肉の旨味がギュッと詰まった高級感のあるカレーが食欲をそそります。ぜひ、素材のもつ美味しさをご堪能下さい。
+                                        </p>
+                                        <div class="tb_border">
+                                            <div class="ts_flex_container fs14 sfs13">
+                                                <p class="ts_flex_ttl">1人前（184g）</p>
+                                                <p class="ts_flex_txt">750円（税込）</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="itd_item">
+                                <div class="itd_item_inner">
+                                    <figure class="mb15"><img src="<?php bloginfo('template_directory'); ?>/assets/images/shop/img_goods02.jpg" alt="" /></figure>
+                                    <div class="itd_item_tbox">
+                                        <h2 class="read_ttl">ホテルオリジナル芋焼酎　縄文のいぶき</h2>
+                                        <p class="read_txt mb30">
+                                            本格芋焼酎「縄文のいぶき」は、霧島の清冽な湧水と厳選された素材から生まれたスッキリとした味わいの焼酎です。<br>
+                                            ホテル内にある「縄文遺跡ミュージアム」の誕生を記念して造られたオリジナル焼酎でまさに「縄文の息吹」に触れるような豊かな味わいで悠久の時をお楽しみ下さい。
+                                        </p>
+                                        <div class="tb_border">
+                                            <div class="ts_flex_container fs14 sfs13">
+                                                <p class="ts_flex_ttl fw_auto pr0">720ml瓶&nbsp;&nbsp;<br class="onlySp">1,700円（税込）&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="sp_hide">/</span></dt>
+                                                <p class="ts_flex_txt pl0">300ml瓶&nbsp;&nbsp;<br class="onlySp">650円（税込）</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- <div class="itd_item">
+                                <div class="itd_item_inner">
+                                    <figure class="mb15"><img src="<?php bloginfo('template_directory'); ?>/assets/images/shop/img_goods03.jpg" alt="" /></figure>
+                                    <div class="itd_item_tbox">
+                                        <h2 class="read_ttl">プリンセスドレッシング</h2>
+                                        <p class="read_txt mb30">
+                                            野菜そのものの風味を引き立てる、さっぱりとした味わいのドレッシングです。<br>
+                                            酸味を抑えたマイルドなドレッシングで、目を見張るようなピンク色は、赤ワインと紫芋によるもので添加物ではありません。
+                                        </p>
+                                        <div class="tb_border">
+                                            <div class="ts_flex_container fs14 sfs13">
+                                                <p class="ts_flex_ttl">1本（200ml）</p>
+                                                <p class="ts_flex_txt">648円（税込）</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> -->
+                        </div>
+                    </article>
+                </section>
+
+
                 <?php include(TEMPLATEPATH . '/inc/footer.php'); ?>
 
             </div>
