@@ -38,7 +38,7 @@ Template Name: ご宿泊 - スーペリアツイン 別館
                 <section class="content">
                     <div class="ptb_sps pt0 pb0 inner_m">
                         <h2 class="mttls tac mb18 smb12">
-                            <span class="mttls_en en">SINGLE ROOM</span>
+                            <span class="mttls_en en">SUPERIOR TWIN ROOM</span>
                             <span class="mttls_ja">スーペリアツインルーム</span>
                         </h2>
                         <div class="ptb_sps pt0 pb0 inner_sb sp_inner_b">

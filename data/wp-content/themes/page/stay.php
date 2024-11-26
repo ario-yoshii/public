@@ -158,12 +158,12 @@ Template Name: ご宿泊
                                     <p class="room_type_item_b_detail">広さ 38.7㎡</p>
                                     <a href="<?php bloginfo('url'); ?>/stay/japanese-western-a/" class="hitarea"></a>
                                 </div>
-                                <div class="room_type_item_b">
+                                <!-- <div class="room_type_item_b">
                                     <figure class="room_type_item_b_img"><img src="<?php bloginfo('template_directory'); ?>/assets/images/stay/img_japanese-western-b1.jpg" alt=""></figure>
                                     <h5 class="room_type_item_b_name">和洋室Bタイプ</h5>
                                     <p class="room_type_item_b_detail">広さ 48.6㎡</p>
                                     <a href="<?php bloginfo('url'); ?>/stay/japanese-western-b/" class="hitarea"></a>
-                                </div>
+                                </div> -->
                                 <div class="room_type_item_b">
                                     <figure class="room_type_item_b_img"><img src="<?php bloginfo('template_directory'); ?>/assets/images/stay/img_japanese-western-dx1.jpg" alt=""></figure>
                                     <h5 class="room_type_item_b_name">和洋室DXタイプ</h5>
