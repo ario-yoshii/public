@@ -86,11 +86,11 @@ Template Name: レストラン＆バー
 										<dl class="openhours">
 											<dt>定休日</dt>
 											<dd>
-											<?php if ( date_i18n("Ymd") <= "20240901" ): /*2024年9月1日まで表示*/?>
-												毎週月曜日、火曜日
-											<?php else: ?>
-												毎週火曜日
-											<?php endif; ?>
+												<?php if (date_i18n("Ymd") <= "20240901"): /*2024年9月1日まで表示*/ ?>
+													毎週月曜日、火曜日
+												<?php else: ?>
+													毎週火曜日
+												<?php endif; ?>
 											</dd>
 										</dl>
 									</div>
@@ -120,7 +120,7 @@ Template Name: レストラン＆バー
 										<dl class="openhours">
 											<dt>定休日</dt>
 											<dd>
-												毎週 日曜日・月曜日
+												<!-- 毎週 日曜日・月曜日 -->なし
 											</dd>
 										</dl>
 									</div>

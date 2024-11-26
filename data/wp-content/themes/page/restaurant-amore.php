@@ -175,7 +175,7 @@ Template Name: レストラン＆バー - メインバー・アモーレ
                                         </dl>
                                         <dl class="dl_tnses_m">
                                             <dt>定休日</dt>
-                                            <dd>毎週 日曜日・月曜日</dd>
+                                            <dd>なし<!-- 毎週 日曜日・月曜日 --></dd>
                                         </dl>
                                         <dl class="dl_tnses_m">
                                             <dt>TEL</dt>

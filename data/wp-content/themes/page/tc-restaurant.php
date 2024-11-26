@@ -60,17 +60,17 @@ Template Name: 繁體中文 - 餐廳酒吧
                                                 高達60公尺高的玻璃帷幕，讓燦爛陽光能隨時灑落進來的中庭，是我們相當自滿的空間，近在眼前的天降川和遠處綠意盎然的霧島連峰，營造出多彩的景象；寬敞開放的環境，讓人有置身在戶外的錯覺；從精力早餐、商業午餐、下午茶到星光輝映的晚餐，整日的用餐環境精彩可期。
                                             </p>
                                             <dl class="openhours openhours_en">
-                                                <dt>OPEN</dt>
+                                                <dt>營業時間</dt>
                                                 <dd>
-                                                    Cafe All Time<br>
-                                                    <span class="hourbox_en">lunch</span>11:30～14:30 (last order 14:00)<br>
-                                                    <span class="hourbox_en">Dinner</span>17:30～21:00 (last order 19:30)
+                                                    全天咖啡館<br>
+                                                    <span class="hourbox_en">午餐</span>11:30～14:30 (last order 14:00)<br>
+                                                    <span class="hourbox_en">晚餐供應</span>17:30～21:00 (last order 19:30)
                                                 </dd>
                                             </dl>
                                             <dl class="openhours openhours_en">
-                                                <dt>Holiday</dt>
+                                                <dt>假日</dt>
                                                 <dd>
-                                                    Wednesday
+                                                    星期三
                                                 </dd>
                                             </dl>
                                         </div>
@@ -88,16 +88,16 @@ Template Name: 繁體中文 - 餐廳酒吧
                                                 “KYO-HARUKA”展現日本僅有的傳統氛圍，加上講究的食材所烹調出，色、香、味俱全的料理美學，達到日本料理醍醐味的境界；在靜謐沈穩的餐廳裡，享受薩摩人自豪的料理，洋溢著季節的幸福感，料理長精心創作的料理，每道佳餚就有如藝術品般，定能打動您的內心深處。鹿兒島的燒酒、日本酒酩品一應俱全，搭配美食達到錦上添花的效果。
                                             </p>
                                             <dl class="openhours openhours_en">
-                                                <dt>OPEN</dt>
+                                                <dt>營業時間</dt>
                                                 <dd>
-                                                    <span class="hourbox_en">lunch</span>11:30～14:30 (last order 14:00)<br>
-                                                    <span class="hourbox_en">Dinner</span>17:30～21:00 (last order 19:30)
+                                                    <span class="hourbox_en">午餐</span>11:30～14:30 (last order 14:00)<br>
+                                                    <span class="hourbox_en">晚餐供應</span>17:30～21:00 (last order 19:30)
                                                 </dd>
                                             </dl>
                                             <dl class="openhours openhours_en">
-                                                <dt>Holiday</dt>
+                                                <dt>假日</dt>
                                                 <dd>
-                                                    Tuesday
+                                                    星期二
                                                 </dd>
                                             </dl>
                                         </div>
@@ -115,15 +115,16 @@ Template Name: 繁體中文 - 餐廳酒吧
                                                 南國迷人的星光，美不勝收的景緻，成年人專有的意境“酒吧 艾莫蕾”；在飯店的頂樓，欣賞一望無際的星空及夜景是種奢華的享受，豐富多樣的葡萄酒和道地燒酌，專業的調酒師精心調出您專屬的雞尾酒，讓您沉浸在曼妙微醺的世界。
                                             </p>
                                             <dl class="openhours">
-                                                <dt>OPEN</dt>
+                                                <dt>營業時間</dt>
                                                 <dd>
-                                                    20:00～24:00 (last order 23:30)
+                                                    20:00～24:00 (最後點餐 23:30)
                                                 </dd>
                                             </dl>
                                             <dl class="openhours openhours_en">
-                                                <dt>Holiday</dt>
+                                                <dt>假日</dt>
                                                 <dd>
-                                                    Sunday,Monday
+                                                    <!-- Sunday,星期一 -->
+                                                    每日營業
                                                 </dd>
                                             </dl>
                                         </div>
@@ -141,18 +142,18 @@ Template Name: 繁體中文 - 餐廳酒吧
                                                 利用自然光線營造出明亮開放的休閒餐廳“夢想國度”，這裡可暢快享用您喜歡的美食，在充滿感動且有活力的夢想樂園中，可飽嚐和風元素的創作美食。還有最受女性貴賓喜愛的甜點專區和種類豐富的鹿兒島燒酒等您來品嚐。
                                             </p>
                                             <dl class="openhours openhours_en">
-                                                <dt>OPEN</dt>
+                                                <dt>營業時間</dt>
                                                 <dd>
-                                                    <span class="hourbox_en">Breakfast</span>6:30～10:00 (last in 09:30)<br>
-                                                    <span class="hourbox_en">lunch</span>11:30～14:30 (last in 14:00)<br>
-                                                    <span class="hourbox_en">Dinner</span>17:00～21:00 (last in 19:30)
+                                                    <span class="hourbox_en">早餐</span>6:30～10:00 (last in 09:30)<br>
+                                                    <span class="hourbox_en">午餐</span>11:30～14:30 (last in 14:00)<br>
+                                                    <span class="hourbox_en">晚餐供應</span>17:00～21:00 (last in 19:30)
                                                 </dd>
                                             </dl>
 
                                             <dl class="openhours openhours_en">
-                                                <dt>Holiday</dt>
+                                                <dt>假日</dt>
                                                 <dd>
-                                                    Monday
+                                                    星期一
                                                 </dd>
                                             </dl>
                                         </div>

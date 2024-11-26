@@ -126,7 +126,7 @@ Template Name: English - RESTAURANT&BAR
                                             <dl class="openhours openhours_en">
                                                 <dt>Holiday</dt>
                                                 <dd>
-                                                    Sunday,Monday
+                                                    <!-- Sunday,Monday -->Open Every Day
                                                 </dd>
                                             </dl>
                                         </div>

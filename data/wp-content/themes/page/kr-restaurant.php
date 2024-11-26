@@ -126,7 +126,8 @@ Template Name: 韓国語 - RESTAURANT&BAR
                                             <dl class="openhours openhours_en">
                                                 <dt>정기휴일</dt>
                                                 <dd>
-                                                    Sunday,Monday
+                                                    <!-- Sunday,Monday -->
+                                                    매일 영업
                                                 </dd>
                                             </dl>
                                         </div>

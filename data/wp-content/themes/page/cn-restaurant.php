@@ -62,15 +62,15 @@ Template Name: 簡体中文 - 餐厅&酒吧
                                             <dl class="openhours openhours_en">
                                                 <dt>营业时间</dt>
                                                 <dd>
-                                                    Cafe All Time<br>
-                                                    <span class="hourbox_en">lunch</span>11:30～14:30 (last order 14:00)<br>
-                                                    <span class="hourbox_en">Dinner</span>17:30～21:00 (last order 19:30)
+                                                    全天咖啡馆<br>
+                                                    <span class="hourbox_en">午餐</span>11:30～14:30 (最后点餐 14:00)<br>
+                                                    <span class="hourbox_en">晚餐</span>17:30～21:00 (最后点餐 19:30)
                                                 </dd>
                                             </dl>
                                             <dl class="openhours openhours_en">
                                                 <dt>固定休息时间</dt>
                                                 <dd>
-                                                    Wednesday
+                                                    星期三
                                                 </dd>
                                             </dl>
                                         </div>
@@ -90,14 +90,14 @@ Template Name: 簡体中文 - 餐厅&酒吧
                                             <dl class="openhours openhours_en">
                                                 <dt>营业时间</dt>
                                                 <dd>
-                                                    <span class="hourbox_en">lunch</span>11:30～14:30 (last order 14:00)<br>
-                                                    <span class="hourbox_en">Dinner</span>17:30～21:00 (last order 19:30)
+                                                    <span class="hourbox_en">午餐</span>11:30～14:30 (最后点餐 14:00)<br>
+                                                    <span class="hourbox_en">晚餐</span>17:30～21:00 (最后点餐 19:30)
                                                 </dd>
                                             </dl>
                                             <dl class="openhours openhours_en">
                                                 <dt>固定休息时间</dt>
                                                 <dd>
-                                                    Tuesday
+                                                    星期二
                                                 </dd>
                                             </dl>
                                         </div>
@@ -117,13 +117,14 @@ Template Name: 簡体中文 - 餐厅&酒吧
                                             <dl class="openhours">
                                                 <dt>营业时间</dt>
                                                 <dd>
-                                                    20:00～24:00 (last order 23:30)
+                                                    20:00～24:00 (最后点餐 23:30)
                                                 </dd>
                                             </dl>
                                             <dl class="openhours openhours_en">
                                                 <dt>固定休息时间</dt>
                                                 <dd>
-                                                    Sunday,Monday
+                                                    <!-- Sunday,星期一 -->
+                                                    每日营业
                                                 </dd>
                                             </dl>
                                         </div>
@@ -143,16 +144,16 @@ Template Name: 簡体中文 - 餐厅&酒吧
                                             <dl class="openhours openhours_en">
                                                 <dt>营业时间</dt>
                                                 <dd>
-                                                    <span class="hourbox_en">Breakfast</span>6:30～10:00 (last in 09:30)<br>
-                                                    <span class="hourbox_en">lunch</span>11:30～14:30 (last in 14:00)<br>
-                                                    <span class="hourbox_en">Dinner</span>17:00～21:00 (last in 19:30)
+                                                    <span class="hourbox_en">早餐</span>6:30～10:00 (最后入场时间 09:30)<br>
+                                                    <span class="hourbox_en">午餐</span>11:30～14:30 (最后入场时间 14:00)<br>
+                                                    <span class="hourbox_en">晚餐</span>17:00～21:00 (最后入场时间 19:30)
                                                 </dd>
                                             </dl>
 
                                             <dl class="openhours openhours_en">
                                                 <dt>固定休息时间</dt>
                                                 <dd>
-                                                    Monday
+                                                    星期一
                                                 </dd>
                                             </dl>
                                         </div>
